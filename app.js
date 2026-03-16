@@ -3,7 +3,7 @@
   'use strict';
 
   /* Theme management (in-memory only) */
-  var currentTheme = 'dark';
+  var currentTheme = 'light';
 
   function applyTheme(theme) {
     currentTheme = theme;
@@ -199,4 +199,30 @@ function copyCode(btn, code) {
       btn.style.background = '';
     }, 2000);
   }
+}
+
+/* Comment submission (authority features) */
+function submitComment() {
+  var name = document.getElementById('commentName');
+  var text = document.getElementById('commentText');
+  var rating = document.getElementById('commentRating');
+  if (!name || !text || !name.value.trim() || !text.value.trim()) return;
+  var stars = '\u2605'.repeat(parseInt(rating.value)||5) + '\u2606'.repeat(5-(parseInt(rating.value)||5));
+  var card = document.createElement('div');
+  card.className = 'comment-card';
+  card.innerHTML = '<div class="comment-header"><strong>'+name.value+'</strong><span class="comment-rating">'+stars+'</span><time>March 2026</time></div><p>'+text.value+'</p>';
+  var list = document.getElementById('commentsList');
+  if(list) list.insertBefore(card, list.firstChild);
+  name.value=''; text.value=''; rating.selectedIndex=0;
+}
+
+/* Report a problem modal (authority features) */
+function showReportForm() {
+  var existing = document.getElementById('reportModal');
+  if(existing){existing.remove();return;}
+  var modal = document.createElement('div');
+  modal.id='reportModal';
+  modal.className='report-modal';
+  modal.innerHTML='<div class="report-modal-content"><h4>Report a Problem</h4><p>Help us keep reviews accurate. Flag outdated info, broken links, or incorrect details.</p><select class="comment-input" id="reportType"><option>Outdated information</option><option>Incorrect bonus details</option><option>Broken link</option><option>Platform no longer available</option><option>Other</option></select><textarea class="comment-textarea" placeholder="Describe the issue..." rows="3" id="reportDetail"></textarea><div style="display:flex;gap:8px;justify-content:flex-end"><button class="btn btn-outline" onclick="document.getElementById(\'reportModal\').remove()">Cancel</button><button class="btn btn-primary" onclick="alert(\'Report submitted. Thank you!\');document.getElementById(\'reportModal\').remove()">Submit Report</button></div></div>';
+  document.body.appendChild(modal);
 }

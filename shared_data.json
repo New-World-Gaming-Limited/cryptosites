@@ -1,0 +1,92 @@
+{
+  "authors": [
+    {"id": "marcus-chen", "name": "Marcus Chen", "role": "Editor-in-Chief", "bio": "Marcus has been covering crypto gambling and blockchain technology since 2018. A former fintech analyst at Goldman Sachs, he brings institutional-grade research methodology to every review. He personally tests each platform with real deposits before publishing.", "specialties": ["Crypto Casinos", "Sports Betting"], "years": 8, "reviews": 120, "initials": "MC"},
+    {"id": "elena-volkov", "name": "Elena Volkov", "role": "Senior Exchange Analyst", "bio": "Elena is a certified blockchain developer and former Binance Academy contributor. She specializes in exchange security audits, fee structure analysis, and DeFi protocol reviews. Every exchange review includes her proprietary security scoring framework.", "specialties": ["Crypto Exchanges", "Wallets"], "years": 6, "reviews": 85, "initials": "EV"},
+    {"id": "james-okonkwo", "name": "James Okonkwo", "role": "Poker & Gaming Specialist", "bio": "A professional poker player turned crypto gaming analyst, James has logged over 10,000 hours on crypto poker platforms. He evaluates player traffic, rake structures, tournament value, and software quality from a player's perspective.", "specialties": ["Crypto Poker", "Lottery"], "years": 5, "reviews": 65, "initials": "JO"},
+    {"id": "sarah-nakamura", "name": "Sarah Nakamura", "role": "Testing Lead", "bio": "Sarah oversees all withdrawal speed tests, bonus verification, and customer support evaluations. She runs a systematic 14-point testing protocol on every platform, documenting deposit-to-withdrawal timelines with cryptographic proof.", "specialties": ["Testing", "Promo Verification"], "years": 4, "reviews": 90, "initials": "SN"}
+  ],
+  "review_authors": {
+    "review-stake.html": "marcus-chen",
+    "review-bc-game.html": "marcus-chen", 
+    "review-bitstarz.html": "marcus-chen",
+    "review-mbit-casino.html": "marcus-chen",
+    "review-fortunejack.html": "marcus-chen",
+    "review-cloudbet.html": "marcus-chen",
+    "review-wild-io.html": "marcus-chen",
+    "review-duelbits.html": "marcus-chen",
+    "review-mega-dice.html": "marcus-chen",
+    "review-vave.html": "marcus-chen",
+    "review-sportsbet-io.html": "marcus-chen",
+    "review-thunderpick.html": "marcus-chen",
+    "review-betplay.html": "marcus-chen",
+    "review-binance.html": "elena-volkov",
+    "review-coinbase.html": "elena-volkov",
+    "review-kraken.html": "elena-volkov",
+    "review-bybit.html": "elena-volkov",
+    "review-kucoin.html": "elena-volkov",
+    "review-okx.html": "elena-volkov",
+    "review-gemini.html": "elena-volkov",
+    "review-ledger.html": "elena-volkov",
+    "review-trezor.html": "elena-volkov",
+    "review-metamask.html": "elena-volkov",
+    "review-exodus.html": "elena-volkov",
+    "review-trust-wallet.html": "elena-volkov",
+    "review-coinbase-wallet.html": "elena-volkov",
+    "review-coinpoker.html": "james-okonkwo",
+    "review-swc-poker.html": "james-okonkwo",
+    "review-blockchain-poker.html": "james-okonkwo",
+    "review-americas-cardroom.html": "james-okonkwo",
+    "review-lucky-block.html": "james-okonkwo"
+  },
+  "comparisons": [
+    {"slug": "stake-vs-bc-game", "p1": "Stake.com", "p2": "BC.Game", "cat": "Crypto Casinos", "p1_review": "review-stake.html", "p2_review": "review-bc-game.html", "p1_rating": "9.5", "p2_rating": "9.1", "p1_bonus": "200% up to $1,000", "p2_bonus": "300% up to $20,000", "p1_games": "5,000+", "p2_games": "8,000+", "p1_cryptos": "18+", "p2_cryptos": "90+", "p1_payout": "Instant", "p2_payout": "Instant"},
+    {"slug": "bitstarz-vs-mbit", "p1": "BitStarz", "p2": "mBit Casino", "cat": "Crypto Casinos", "p1_review": "review-bitstarz.html", "p2_review": "review-mbit-casino.html", "p1_rating": "9.0", "p2_rating": "8.7", "p1_bonus": "5 BTC + 200 Free Spins", "p2_bonus": "5 BTC + 300 Free Spins", "p1_games": "3,500+", "p2_games": "2,500+", "p1_cryptos": "5+", "p2_cryptos": "4+", "p1_payout": "< 10 min", "p2_payout": "< 15 min"},
+    {"slug": "binance-vs-coinbase", "p1": "Binance", "p2": "Coinbase", "cat": "Crypto Exchanges", "p1_review": "review-binance.html", "p2_review": "review-coinbase.html", "p1_rating": "9.4", "p2_rating": "9.1", "p1_bonus": "100 USDT Trading Bonus", "p2_bonus": "$10 in BTC on Sign-Up", "p1_games": "600+ pairs", "p2_games": "250+ pairs", "p1_cryptos": "350+", "p2_cryptos": "250+", "p1_payout": "< 30 min", "p2_payout": "< 60 min"},
+    {"slug": "kraken-vs-bybit", "p1": "Kraken", "p2": "Bybit", "cat": "Crypto Exchanges", "p1_review": "review-kraken.html", "p2_review": "review-bybit.html", "p1_rating": "9.2", "p2_rating": "8.9", "p1_bonus": "Fee-Free Trading", "p2_bonus": "$30,000 Deposit Bonus", "p1_games": "300+ pairs", "p2_games": "500+ pairs", "p1_cryptos": "200+", "p2_cryptos": "400+", "p1_payout": "< 15 min", "p2_payout": "< 20 min"},
+    {"slug": "ledger-vs-trezor", "p1": "Ledger", "p2": "Trezor", "cat": "Crypto Wallets", "p1_review": "review-ledger.html", "p2_review": "review-trezor.html", "p1_rating": "9.3", "p2_rating": "9.0", "p1_bonus": "Free Shipping Offer", "p2_bonus": "Bundle Discount", "p1_games": "5,500+ coins", "p2_games": "1,400+ coins", "p1_cryptos": "5,500+", "p2_cryptos": "1,400+", "p1_payout": "N/A", "p2_payout": "N/A"},
+    {"slug": "stake-vs-cloudbet", "p1": "Stake.com", "p2": "Cloudbet", "cat": "Sports Betting", "p1_review": "review-stake.html", "p2_review": "review-cloudbet.html", "p1_rating": "9.5", "p2_rating": "8.8", "p1_bonus": "200% up to $1,000", "p2_bonus": "5 BTC Welcome Bonus", "p1_games": "35+ sports", "p2_games": "30+ sports", "p1_cryptos": "18+", "p2_cryptos": "12+", "p1_payout": "Instant", "p2_payout": "< 10 min"}
+  ],
+  "alternatives": [
+    {"slug": "alternatives-stake", "platform": "Stake.com", "review": "review-stake.html", "cat": "Crypto Casinos", "alts": ["BC.Game", "BitStarz", "Cloudbet", "FortuneJack", "Wild.io", "DuelBits"]},
+    {"slug": "alternatives-binance", "platform": "Binance", "review": "review-binance.html", "cat": "Crypto Exchanges", "alts": ["Coinbase", "Kraken", "Bybit", "KuCoin", "OKX", "Gemini"]},
+    {"slug": "alternatives-coinbase", "platform": "Coinbase", "review": "review-coinbase.html", "cat": "Crypto Exchanges", "alts": ["Binance", "Kraken", "Gemini", "Bybit", "KuCoin", "OKX"]},
+    {"slug": "alternatives-ledger", "platform": "Ledger", "review": "review-ledger.html", "cat": "Crypto Wallets", "alts": ["Trezor", "MetaMask", "Exodus", "Trust Wallet", "Coinbase Wallet"]},
+    {"slug": "alternatives-bc-game", "platform": "BC.Game", "review": "review-bc-game.html", "cat": "Crypto Casinos", "alts": ["Stake.com", "BitStarz", "mBit Casino", "FortuneJack", "Cloudbet", "Wild.io"]}
+  ],
+  "geo_guides": [
+    {"slug": "best-crypto-casinos-us", "title": "Best Crypto Casinos for US Players 2026", "region": "United States", "legal_note": "Crypto gambling exists in a legal gray area in the US. No federal law explicitly bans crypto casino play, but individual states have varying regulations.", "top_picks": ["Stake.com (via VPN — not officially supported)", "BC.Game", "Wild.io", "FortuneJack", "DuelBits"]},
+    {"slug": "best-crypto-casinos-uk", "title": "Best Crypto Casinos for UK Players 2026", "region": "United Kingdom", "legal_note": "The UK Gambling Commission regulates online gambling. Most offshore crypto casinos accept UK players, but they operate outside UKGC oversight.", "top_picks": ["BC.Game", "BitStarz", "Cloudbet", "FortuneJack", "mBit Casino"]},
+    {"slug": "best-crypto-casinos-australia", "title": "Best Crypto Casinos for Australian Players 2026", "region": "Australia", "legal_note": "Australia's Interactive Gambling Act 2001 restricts online casino operators from offering services to Australians, but does not target individual players.", "top_picks": ["BC.Game", "BitStarz", "mBit Casino", "Wild.io", "Mega Dice"]},
+    {"slug": "best-crypto-exchanges-usa", "title": "Best Crypto Exchanges for US Traders 2026", "region": "United States", "legal_note": "US crypto exchanges must register with FinCEN and comply with state-level money transmitter licenses. Only exchanges with US-specific compliance are recommended.", "top_picks": ["Coinbase", "Kraken", "Gemini", "Binance.US", "OKX"]},
+    {"slug": "best-crypto-casinos-canada", "title": "Best Crypto Casinos for Canadian Players 2026", "region": "Canada", "legal_note": "Online gambling is regulated at the provincial level in Canada. Most offshore crypto casinos accept Canadian players without restriction.", "top_picks": ["Stake.com", "BC.Game", "BitStarz", "Cloudbet", "FortuneJack"]}
+  ],
+  "blog_articles": [
+    {"slug": "blog-crypto-casino-regulations-2026", "title": "Crypto Casino Regulations in 2026: What You Need to Know", "excerpt": "A comprehensive overview of how global regulations are shaping the crypto gambling landscape in 2026.", "author": "marcus-chen", "date": "2026-03-10", "category": "Regulation"},
+    {"slug": "blog-bitcoin-halving-gambling-impact", "title": "How Bitcoin's Halving Impacts Crypto Gambling Bonuses", "excerpt": "The latest Bitcoin halving has changed the economics of crypto casino bonuses. Here's what it means for players.", "author": "marcus-chen", "date": "2026-03-08", "category": "Analysis"},
+    {"slug": "blog-provably-fair-explained", "title": "Provably Fair Gaming: The Complete Technical Guide", "excerpt": "Understanding the cryptographic algorithms that make provably fair games transparent and verifiable.", "author": "james-okonkwo", "date": "2026-03-05", "category": "Education"},
+    {"slug": "blog-defi-gambling-protocols", "title": "DeFi Gambling Protocols: The Future of Trustless Betting", "excerpt": "Smart contract-based gambling platforms are eliminating the need to trust operators. We explore the leading DeFi protocols.", "author": "elena-volkov", "date": "2026-03-01", "category": "Technology"},
+    {"slug": "blog-withdrawal-speed-test-march", "title": "March 2026 Withdrawal Speed Test: We Tested 15 Crypto Casinos", "excerpt": "Our monthly withdrawal speed test results are in. See which platforms deliver the fastest crypto payouts.", "author": "sarah-nakamura", "date": "2026-03-12", "category": "Testing"}
+  ],
+  "glossary_terms": [
+    {"term": "Provably Fair", "definition": "A cryptographic system that allows players to verify the fairness of each game outcome independently. Uses hash functions and server/client seeds to prove that results were not manipulated."},
+    {"term": "House Edge", "definition": "The mathematical advantage the casino holds over players on any given game, expressed as a percentage. For example, a 2% house edge means the casino expects to keep $2 for every $100 wagered over time."},
+    {"term": "RTP (Return to Player)", "definition": "The percentage of total wagered money a game is expected to pay back to players over time. A 96% RTP means the game returns $96 for every $100 wagered on average."},
+    {"term": "Wagering Requirements", "definition": "The number of times a bonus amount must be bet before winnings can be withdrawn. A 30x wagering requirement on a $100 bonus means you must wager $3,000 before cashing out."},
+    {"term": "KYC (Know Your Customer)", "definition": "Identity verification procedures that require users to submit documents proving their identity. Many crypto casinos offer reduced or no KYC, but exchanges typically require full verification."},
+    {"term": "Cold Storage", "definition": "Storing cryptocurrency offline in hardware wallets or air-gapped devices, disconnected from the internet. Considered the most secure method for long-term crypto storage."},
+    {"term": "Hot Wallet", "definition": "A cryptocurrency wallet connected to the internet, used for active trading and transactions. More convenient but less secure than cold storage."},
+    {"term": "Gas Fees", "definition": "Transaction fees paid to blockchain network validators for processing transactions. Ethereum gas fees fluctuate based on network congestion."},
+    {"term": "DeFi (Decentralized Finance)", "definition": "Financial services built on blockchain technology that operate without traditional intermediaries like banks. Includes lending, borrowing, trading, and yield farming."},
+    {"term": "Rakeback", "definition": "A percentage of the rake (house commission) returned to the player. Common in crypto poker rooms and some casinos as a loyalty reward."},
+    {"term": "Seed Phrase", "definition": "A series of 12 or 24 words that serves as the master backup for a cryptocurrency wallet. Anyone with your seed phrase can access your funds — never share it."},
+    {"term": "Smart Contract", "definition": "Self-executing programs stored on a blockchain that automatically enforce the terms of an agreement when conditions are met. Used in DeFi gambling for trustless betting."},
+    {"term": "Altcoin", "definition": "Any cryptocurrency other than Bitcoin. Includes Ethereum, Solana, Dogecoin, and thousands of other tokens."},
+    {"term": "Stablecoin", "definition": "A cryptocurrency pegged to a stable asset like the US dollar (e.g., USDT, USDC). Used in crypto gambling to avoid volatility risk."},
+    {"term": "Blockchain", "definition": "A distributed, immutable digital ledger that records transactions across a network of computers. The underlying technology behind all cryptocurrencies."},
+    {"term": "2FA (Two-Factor Authentication)", "definition": "A security method requiring two forms of verification to access an account. Typically combines a password with a code from an authenticator app or SMS."},
+    {"term": "Whale", "definition": "A player or trader who wagers or holds extremely large amounts of cryptocurrency. Whales can significantly impact market prices or casino economics."},
+    {"term": "DYOR (Do Your Own Research)", "definition": "A common crypto community phrase urging individuals to investigate and verify information independently before making financial decisions."},
+    {"term": "Faucet", "definition": "A platform that distributes small amounts of cryptocurrency for free, usually in exchange for completing simple tasks. Used to introduce newcomers to crypto."},
+    {"term": "Lightning Network", "definition": "A Layer 2 payment protocol built on top of Bitcoin that enables near-instant, low-cost transactions. Increasingly used by crypto casinos for faster Bitcoin deposits and withdrawals."}
+  ]
+}

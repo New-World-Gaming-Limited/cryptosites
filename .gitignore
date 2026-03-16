@@ -1,0 +1,4 @@
+*.py
+*.json
+!shared_data.json
+!favicon.svg
