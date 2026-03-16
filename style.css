@@ -4177,3 +4177,1000 @@
   .news-article-header h1 { font-size: var(--text-2xl); }
   .news-brand-bar { flex-direction: column; align-items: flex-start; }
 }
+
+/* ============================================================
+   REVIEW TABLE ROW — Expanded brand cards in category pages
+   ============================================================ */
+
+.review-table-row {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s ease;
+}
+.review-table-row:hover {
+  background: var(--surface-hover, rgba(0,0,0,0.02));
+}
+[data-theme="dark"] .review-table-row:hover {
+  background: rgba(255,255,255,0.03);
+}
+
+.review-table-row td {
+  padding: 16px 12px;
+  vertical-align: middle;
+  font-size: 0.9rem;
+}
+
+.rank-cell {
+  width: 48px;
+  text-align: center;
+}
+.rank-num {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--text-secondary, #6b7280);
+}
+
+/* Platform info cell */
+.platform-cell .platform-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.platform-cell .platform-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.platform-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.platform-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.platform-name:hover {
+  color: var(--accent, #009e80);
+}
+.platform-features {
+  font-size: 0.78rem;
+  color: var(--text-secondary, #6b7280);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 220px;
+}
+
+/* Rating cell */
+.rating-cell {
+  white-space: nowrap;
+  min-width: 90px;
+}
+.table-rating {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+}
+.rating-max {
+  font-size: 0.8rem;
+  color: var(--text-secondary, #6b7280);
+  font-weight: 400;
+}
+.table-stars {
+  display: flex;
+  gap: 1px;
+  margin-top: 2px;
+}
+.table-stars svg {
+  width: 14px;
+  height: 14px;
+  fill: var(--secondary, #f0a500);
+}
+
+/* Bonus cell */
+.bonus-cell {
+  min-width: 160px;
+}
+.table-bonus {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+.table-promo {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-secondary, #6b7280);
+}
+.table-promo strong {
+  color: var(--accent, #009e80);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* Crypto cell */
+.crypto-cell {
+  min-width: 100px;
+}
+.crypto-list {
+  font-size: 0.82rem;
+  color: var(--text-secondary, #6b7280);
+  line-height: 1.4;
+}
+
+/* Action cell */
+.action-cell {
+  white-space: nowrap;
+  min-width: 160px;
+}
+.action-cell .btn {
+  margin-bottom: 4px;
+}
+.review-link {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-secondary, #6b7280);
+  text-decoration: none;
+  margin-top: 4px;
+  text-align: center;
+}
+.review-link:hover {
+  color: var(--accent, #009e80);
+}
+.star-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: var(--text-secondary, #6b7280);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  vertical-align: middle;
+  opacity: 0.5;
+  transition: opacity 0.15s, color 0.15s;
+}
+.star-btn:hover {
+  opacity: 1;
+  color: var(--secondary, #f0a500);
+}
+.star-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ============================================================
+   BRAND INFO BOX — Polish logo alignment and spacing
+   ============================================================ */
+
+.brand-info-box {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  background: var(--surface, #fff);
+  margin-bottom: var(--space-5, 24px);
+}
+[data-theme="dark"] .brand-info-box {
+  background: var(--surface-dark, #1e2128);
+  border-color: var(--border-dark, #2e3138);
+}
+.brand-info-box-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border, #e5e7eb);
+}
+.brand-info-box-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-info-box-icon img {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.brand-info-box-title h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.brand-info-box-type {
+  font-size: 0.82rem;
+  color: var(--text-secondary, #6b7280);
+}
+.brand-info-box-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.brand-info-box-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary, #6b7280);
+  margin-bottom: 8px;
+}
+.brand-info-box-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+}
+.brand-info-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.brand-info-detail-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #6b7280);
+}
+.brand-info-box-crypto {
+  grid-column: 1 / -1;
+}
+.brand-box-crypto-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.brand-box-crypto-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--surface-alt, #f0f2f5);
+  color: var(--text-secondary, #6b7280);
+}
+[data-theme="dark"] .brand-box-crypto-tag {
+  background: rgba(255,255,255,0.08);
+}
+.brand-box-crypto-more {
+  background: var(--accent, #009e80);
+  color: #fff;
+}
+.brand-box-license-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.brand-box-jurisdiction {
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+.brand-box-authority {
+  font-size: 0.82rem;
+  color: var(--text-secondary, #6b7280);
+}
+
+/* ============================================================
+   PROMO BANNER — Review page offer strip
+   ============================================================ */
+
+.promo-banner {
+  background: linear-gradient(135deg, #e8f5f1 0%, #f0faf7 100%);
+  border: 1px solid rgba(0,158,128,0.15);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 20px 0;
+}
+[data-theme="dark"] .promo-banner {
+  background: linear-gradient(135deg, rgba(0,158,128,0.1) 0%, rgba(0,158,128,0.05) 100%);
+  border-color: rgba(0,158,128,0.2);
+}
+.promo-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.promo-banner-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  background: var(--accent, #009e80);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.promo-banner-text {
+  flex: 1;
+  min-width: 200px;
+}
+.promo-banner-title {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary, #6b7280);
+  margin-bottom: 2px;
+}
+.promo-banner-bonus {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--accent, #009e80);
+  line-height: 1.3;
+}
+.promo-banner-code {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+.promo-banner-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.promo-banner-code-text {
+  background: var(--accent, #009e80);
+  color: #fff;
+  padding: 3px 12px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+/* ============================================================
+   REVIEW CARD — Category page expanded brand cards
+   ============================================================ */
+
+.review-card {
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 16px;
+  background: var(--surface, #fff);
+  position: relative;
+  transition: box-shadow 0.2s ease;
+}
+.review-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+.review-card .review-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+.review-card .review-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+/* ============================================================
+   TABLE GENERAL — Shared table styling improvements
+   ============================================================ */
+
+.comparison-table,
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.comparison-table th,
+table thead th {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary, #6b7280);
+  padding: 12px 12px;
+  text-align: left;
+  border-bottom: 2px solid var(--border, #e5e7eb);
+  background: transparent;
+}
+.comparison-table td,
+table tbody td {
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--border, #e5e7eb);
+  vertical-align: middle;
+}
+.comparison-table tr:last-child td,
+table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Platform cell in simple tables (non-review-table-row) */
+.platform-cell {
+  white-space: nowrap;
+}
+.platform-cell img {
+  vertical-align: middle;
+}
+
+/* Rating badge in tables */
+.rating-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--secondary, #f0a500);
+}
+.rating-badge svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* ============================================================
+   STICKY BOTTOM CTA — Promo pages
+   ============================================================ */
+
+.sticky-bottom-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--accent, #009e80);
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  z-index: 90;
+  display: none;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.12);
+}
+@media (max-width: 768px) {
+  .sticky-bottom-cta { display: block; }
+}
+
+/* ============================================================
+   RESPONSIVE — Review table row
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .review-table-row td {
+    padding: 10px 8px;
+    font-size: 0.82rem;
+  }
+  .platform-features {
+    display: none;
+  }
+  .platform-cell .platform-icon {
+    width: 36px;
+    height: 36px;
+  }
+  .table-stars {
+    display: none;
+  }
+  .crypto-cell {
+    display: none;
+  }
+  .brand-info-box-grid {
+    grid-template-columns: 1fr;
+  }
+  .brand-info-box-details {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* ============================================
+   UX POLISH — Improved Letter Icons
+   ============================================ */
+.platform-mini-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, var(--accent) 0%, #007a63 100%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.8rem;
+  color: #fff;
+  flex-shrink: 0;
+  vertical-align: middle;
+  margin-right: 6px;
+  text-transform: uppercase;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+/* ============================================
+   UX POLISH — Table Improvements
+   ============================================ */
+
+/* Comparison table - cleaner header */
+.comparison-table thead th {
+  background: var(--bg-surface-2, #f1f5f9);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  padding: 12px 16px;
+  border-bottom: 2px solid var(--border);
+  white-space: nowrap;
+}
+
+[data-theme="dark"] .comparison-table thead th {
+  background: var(--bg-surface-2, #1e293b);
+}
+
+/* Better row hover */
+.comparison-table tbody tr {
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+.comparison-table tbody tr:hover {
+  background: var(--accent-muted, rgba(0, 158, 128, 0.04));
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+/* Zebra striping for better readability */
+.comparison-table tbody tr:nth-child(even) {
+  background: var(--bg-surface-1, rgba(0,0,0,0.015));
+}
+.comparison-table tbody tr:nth-child(even):hover {
+  background: var(--accent-muted, rgba(0, 158, 128, 0.04));
+}
+
+[data-theme="dark"] .comparison-table tbody tr:nth-child(even) {
+  background: rgba(255,255,255,0.02);
+}
+
+/* Better TD padding alignment */
+.comparison-table td {
+  padding: 16px;
+  font-size: 0.9rem;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--border, #e5e7eb);
+}
+
+/* First column numbering */
+.comparison-table td:first-child {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 0.85rem;
+  width: 40px;
+  text-align: center;
+}
+
+/* Platform cell alignment */
+.platform-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Rating badge polish */
+.rating-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--accent-dark, #007a63);
+  background: var(--accent-muted, rgba(0, 158, 128, 0.08));
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.rating-badge svg {
+  width: 14px;
+  height: 14px;
+  fill: #f59e0b;
+}
+
+/* Action buttons in table */
+.comparison-table .btn-sm,
+.comparison-table a[class*="btn"] {
+  font-size: 0.78rem;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+/* ============================================
+   UX POLISH — Review Cards
+   ============================================ */
+.review-card {
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: var(--radius-lg, 12px);
+  padding: var(--space-6, 24px);
+  background: var(--bg-surface, #ffffff);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.review-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border-color: var(--accent-muted, rgba(0, 158, 128, 0.3));
+}
+[data-theme="dark"] .review-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+/* Review card rank badge */
+.review-card .review-rank .rank-number {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--accent);
+  line-height: 1;
+}
+
+/* Pros/cons styling */
+.pros-cons .pro,
+.pros-cons .con {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  padding: 4px 0;
+}
+.pros-cons .pro svg {
+  color: #10b981;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.pros-cons .con svg {
+  color: #ef4444;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* ============================================
+   UX POLISH — Brand Info Box
+   ============================================ */
+.brand-info-box {
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: var(--radius-lg, 12px);
+  padding: var(--space-6, 24px);
+  background: var(--bg-surface, #ffffff);
+  margin-bottom: var(--space-6, 24px);
+}
+
+.brand-info-box-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border, #e5e7eb);
+  margin-bottom: 20px;
+}
+
+.brand-info-box-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.brand-info-box-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+}
+
+.brand-info-box-type {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* Licensing section */
+.brand-info-box h4 {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+/* Crypto tags */
+.crypto-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--bg-surface, #ffffff);
+  white-space: nowrap;
+}
+
+.crypto-tag.more {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
+/* ============================================
+   UX POLISH — Promo Page Banner
+   ============================================ */
+.promo-banner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(135deg, var(--bg-surface, #ffffff) 0%, var(--accent-muted, rgba(0, 158, 128, 0.04)) 100%);
+  border: 1px solid var(--border, #e5e7eb);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-lg, 12px);
+  padding: 24px;
+  margin-bottom: var(--space-6, 24px);
+}
+
+.promo-banner-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--accent-muted, rgba(0, 158, 128, 0.08));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.promo-banner h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+/* Promo code box */
+.promo-code-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent-muted, rgba(0, 158, 128, 0.06));
+  border: 2px dashed var(--accent);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-family: var(--font-mono, 'SF Mono', monospace);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+
+/* ============================================
+   UX POLISH — Hero Section
+   ============================================ */
+.hero-review {
+  padding: var(--space-8, 32px) 0;
+}
+
+.hero-review h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  line-height: 1.1;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+/* Rating circle in promo/review hero */
+.rating-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.rating-circle .rating-number {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--accent);
+}
+.rating-circle .rating-sub {
+  font-size: 0.65rem;
+  color: var(--text-secondary);
+}
+
+/* ============================================
+   UX POLISH — Sidebar
+   ============================================ */
+.sidebar-card {
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: var(--radius-lg, 12px);
+  padding: 20px;
+  background: var(--bg-surface, #ffffff);
+  margin-bottom: 16px;
+}
+.sidebar-card h3 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border, #e5e7eb);
+}
+
+/* ============================================
+   UX POLISH — Buttons
+   ============================================ */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent);
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.btn-primary:hover {
+  background: var(--accent-hover, #007a63);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 158, 128, 0.25);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--accent);
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.btn-outline:hover {
+  background: var(--accent);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* ============================================
+   UX POLISH — Footer improvements
+   ============================================ */
+.footer {
+  border-top: 1px solid var(--border);
+  padding-top: var(--space-12, 48px);
+}
+
+.footer a {
+  transition: color 0.15s ease;
+}
+.footer a:hover {
+  color: var(--accent);
+}
+
+/* ============================================
+   UX POLISH — Scroll behavior
+   ============================================ */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus states for accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Selection styling */
+::selection {
+  background: var(--accent-muted, rgba(0, 158, 128, 0.15));
+  color: var(--text-primary);
+}
+
+/* ============================================
+   UX POLISH — Responsive improvements
+   ============================================ */
+@media (max-width: 768px) {
+  .comparison-table {
+    font-size: 0.82rem;
+  }
+  .comparison-table td {
+    padding: 12px 10px;
+  }
+  .comparison-table thead th {
+    padding: 10px;
+    font-size: 0.68rem;
+  }
+  
+  .brand-info-box {
+    padding: 16px;
+  }
+  .brand-info-box-header {
+    gap: 12px;
+  }
+  .brand-info-box-logo {
+    width: 44px;
+    height: 44px;
+  }
+  
+  .promo-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 16px;
+  }
+  
+  .review-card {
+    padding: 16px;
+  }
+  
+  .hero-review h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .comparison-table td:nth-child(5),
+  .comparison-table th:nth-child(5),
+  .comparison-table td:nth-child(6),
+  .comparison-table th:nth-child(6) {
+    display: none;
+  }
+  
+  .rating-badge {
+    font-size: 0.8rem;
+    padding: 3px 8px;
+  }
+  
+  .platform-mini-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 0.7rem;
+  }
+}
