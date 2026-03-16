@@ -102,18 +102,16 @@
 <section class="content-body">
   <div class="container">
 
-    <!-- Filter Tags -->
-    <div class="news-filters" style="margin-bottom:var(--space-6);display:flex;flex-wrap:wrap;gap:8px">
-      <button class="news-filter-tag active" data-filter="all">All News</button>
-      <button class="news-filter-tag" data-filter="launch">Launches</button>
-      <button class="news-filter-tag" data-filter="regulation">Regulation</button>
-      <button class="news-filter-tag" data-filter="poker">Poker</button>
-      <button class="news-filter-tag" data-filter="casino">Casino</button>
-      <button class="news-filter-tag" data-filter="sports">Sports</button>
-      <button class="news-filter-tag" data-filter="exchange">Exchange</button>
+    <!-- News Filters -->
+    <div class="news-filter-bar" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px;">
+      <button class="news-filter-btn active" data-filter="all" onclick="filterNews('all')">All Stories</button>
+      <button class="news-filter-btn" data-filter="casino" onclick="filterNews('casino')">Casino</button>
+      <button class="news-filter-btn" data-filter="sports" onclick="filterNews('sports')">Sports</button>
+      <button class="news-filter-btn" data-filter="poker" onclick="filterNews('poker')">Poker</button>
+      <button class="news-filter-btn" data-filter="exchange" onclick="filterNews('exchange')">Exchange</button>
+      <button class="news-filter-btn" data-filter="launch" onclick="filterNews('launch')">Launches</button>
+      <button class="news-filter-btn" data-filter="update" onclick="filterNews('update')">Updates</button>
     </div>
-
-    <!-- News Grid -->
     <div class="news-grid">
 
       <a href="./news-bc-poker-2026-launch.html" class="news-card news-card-featured" data-tags="launch poker">
@@ -1051,5 +1049,29 @@
   </div>
 </footer>
 <script src="./app.js" defer></script>
+
+<script>
+function filterNews(tag) {
+  const cards = document.querySelectorAll('.news-card');
+  const btns = document.querySelectorAll('.news-filter-btn');
+  btns.forEach(b => b.classList.toggle('active', b.dataset.filter === tag));
+  cards.forEach(card => {
+    const tags = (card.dataset.tags || '').toLowerCase();
+    card.style.display = (tag === 'all' || tags.includes(tag)) ? '' : 'none';
+  });
+}
+</script>
+
+  <!-- Back to Top -->
+  <button id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top" style="position:fixed;bottom:24px;right:24px;width:44px;height:44px;border-radius:50%;background:var(--accent);color:#fff;border:none;cursor:pointer;font-size:1.2rem;box-shadow:0 4px 12px rgba(0,158,128,0.3);opacity:0;transition:opacity 0.3s;z-index:999;display:flex;align-items:center;justify-content:center;">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+  <script>
+  (function(){
+    var btn=document.getElementById('backToTop');
+    if(btn){window.addEventListener('scroll',function(){btn.style.opacity=window.scrollY>400?'1':'0';btn.style.pointerEvents=window.scrollY>400?'auto':'none'});}
+  })();
+  </script>
+
 </body>
 </html>
