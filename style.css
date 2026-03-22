@@ -1286,6 +1286,26 @@
   font-size: var(--text-sm);
   color: var(--secondary);
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.similar-card .sim-rating svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: #d4a017;
+}
+.similar-card .sim-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  object-fit: contain;
+  margin: 0 auto var(--space-3);
+  display: block;
+  background: #1a1f2e;
+  padding: 8px;
 }
 
 /* ============================================
@@ -6470,5 +6490,49 @@ article p {
   body {
     font-size: 12pt;
     line-height: 1.6;
+  }
+}
+
+/* === Brand Homepage Screenshot === */
+.brand-screenshot-box {
+  margin: var(--space-4) 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+}
+.brand-screenshot-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+}
+.brand-screenshot-header svg {
+  flex-shrink: 0;
+  color: var(--text-secondary);
+}
+.brand-screenshot-img-wrap {
+  padding: 0;
+  line-height: 0;
+}
+.brand-screenshot-img-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;
+}
+@media (max-width: 640px) {
+  .brand-screenshot-box {
+    margin: var(--space-3) 0;
+    border-radius: 8px;
+  }
+  .brand-screenshot-header {
+    padding: 8px 12px;
+    font-size: 0.78rem;
   }
 }
