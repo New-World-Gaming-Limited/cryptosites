@@ -1,39 +1,14 @@
-# Cryptosites.com — robots.txt
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://cryptosites.com/sitemap.xml
-
-# Crawl-delay (be polite)
-Crawl-delay: 1
-
-# Block internal/utility files
-Disallow: /build_*
-Disallow: /generate_*
-Disallow: /update_*
-Disallow: /add_*
-Disallow: /fix_*
-Disallow: /link_*
-Disallow: /inject_*
+# Block build scripts and data files
+Disallow: /build_
+Disallow: /generate_
+Disallow: /update_
+Disallow: /add_
+Disallow: /fix_
+Disallow: /link_
 Disallow: /shared_data.json
 Disallow: /.git/
 
-# Allow all content pages
-Allow: /index.html
-Allow: /crypto-*.html
-Allow: /review-*.html
-Allow: /promo-*.html
-Allow: /news-*.html
-Allow: /blog-*.html
-Allow: /compare-*.html
-Allow: /best-*.html
-Allow: /alternatives-*.html
-Allow: /guide-*.html
-Allow: /about.html
-Allow: /team.html
-Allow: /glossary.html
-Allow: /how-we-rate.html
-Allow: /editorial-policy.html
-Allow: /responsible-gambling.html
-Allow: /warnings.html
+Sitemap: https://cryptosites.com/sitemap.xml
