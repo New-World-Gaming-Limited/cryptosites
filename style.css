@@ -6532,3 +6532,402 @@ article p {
   background: linear-gradient(transparent, var(--surface-1));
   pointer-events: none;
 }
+
+/* ============================================
+   REVIEW PAGE REDESIGN — OntarioPoker-Inspired
+   Clean typography, generous spacing, clear hierarchy
+   ============================================ */
+
+/* --- In This Review TOC Pills --- */
+.review-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: var(--space-5) 0;
+  margin-bottom: var(--space-6);
+  border-bottom: 1px solid var(--border);
+}
+.review-toc a {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-surface-2);
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border);
+  transition: all var(--duration-fast) var(--ease-out);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.review-toc a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-muted);
+}
+
+/* --- Quick Verdict Box --- */
+.quick-verdict {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6) var(--space-8);
+  margin-bottom: var(--space-10);
+}
+.quick-verdict-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--border);
+}
+.quick-verdict-score {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+.quick-verdict-score .qv-number {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--secondary);
+  line-height: 1;
+}
+.quick-verdict-score .qv-max {
+  font-size: var(--text-lg);
+  font-weight: 500;
+  color: var(--text-muted);
+}
+.quick-verdict-label {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.quick-verdict-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+}
+.quick-verdict-cols h4 {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-3);
+  color: var(--text-primary);
+}
+.qv-best-for { color: var(--success); }
+.qv-not-ideal { color: var(--error); }
+.quick-verdict-cols ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.quick-verdict-cols ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--space-2);
+}
+.quick-verdict-cols ul li svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.qv-best-for-list li svg { color: var(--success); }
+.qv-not-ideal-list li svg { color: var(--error); }
+
+@media (max-width: 640px) {
+  .quick-verdict { padding: var(--space-5); }
+  .quick-verdict-cols { grid-template-columns: 1fr; gap: var(--space-4); }
+}
+
+/* --- Review Section Styling (OntarioPoker-inspired) --- */
+.review-main h2 {
+  font-size: var(--text-2xl) !important;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-4) !important;
+  padding-top: var(--space-10) !important;
+  padding-bottom: var(--space-3);
+  border-bottom: 2px solid var(--border);
+  scroll-margin-top: 80px;
+}
+.review-main h2:first-child {
+  padding-top: 0 !important;
+}
+.review-main h3 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-3);
+}
+.review-main p {
+  font-size: var(--text-base) !important;
+  line-height: 1.75 !important;
+  color: var(--text-primary) !important;
+  margin-bottom: var(--space-5) !important;
+  max-width: 72ch;
+}
+.review-main ul {
+  margin-bottom: var(--space-5);
+}
+.review-main ul li {
+  color: var(--text-primary) !important;
+  line-height: 1.7;
+  margin-bottom: var(--space-2);
+}
+.review-main em {
+  font-style: italic;
+  color: var(--text-primary);
+}
+
+/* --- Improved Sidebar --- */
+.review-sidebar {
+  position: sticky;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.sidebar-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+.sidebar-card h3 {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border);
+}
+/* Sidebar quick-links card */
+.sidebar-quick-links {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+.sidebar-quick-links h4 {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  margin-bottom: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border);
+}
+.sidebar-quick-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--bg-surface-2);
+  transition: color var(--duration-fast) var(--ease-out);
+}
+.sidebar-quick-links a:last-child { border-bottom: none; }
+.sidebar-quick-links a:hover { color: var(--accent); }
+.sidebar-quick-links a::before {
+  content: '→';
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+/* --- Brand Info Box cleanup --- */
+.brand-info-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin-bottom: var(--space-6);
+}
+
+/* --- Review Top Area cleanup --- */
+.review-top-bar {
+  margin-bottom: var(--space-4);
+}
+.review-depth-strip {
+  margin-bottom: var(--space-4);
+}
+
+/* --- Pros/Cons grid improvement --- */
+.pros-cons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-5);
+  margin: var(--space-6) 0 var(--space-8);
+}
+.pros-card, .cons-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+.pros-card h3, .cons-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--text-base);
+  font-weight: 700;
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border);
+}
+.pros-card h3 { color: var(--success); }
+.cons-card h3 { color: var(--error); }
+.pros-card li, .cons-card li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  margin-bottom: var(--space-3);
+  color: var(--text-primary);
+}
+.pros-card li svg { color: var(--success); width: 16px; height: 16px; flex-shrink: 0; margin-top: 3px; }
+.cons-card li svg { color: var(--error); width: 16px; height: 16px; flex-shrink: 0; margin-top: 3px; }
+
+/* --- Testing Proof box --- */
+.testing-proof {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  margin: var(--space-6) 0;
+}
+.testing-proof h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--text-base);
+  font-weight: 700;
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border);
+}
+.testing-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+.test-result {
+  text-align: center;
+  padding: var(--space-3);
+  background: var(--bg-surface-2);
+  border-radius: var(--radius-md);
+}
+.test-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.test-value {
+  display: block;
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.testing-note {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* --- Promo Banner cleanup --- */
+.promo-banner {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  margin: var(--space-6) 0;
+}
+
+/* --- Similar Platforms cleanup --- */
+.similar-platforms {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}
+.similar-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  text-align: center;
+  text-decoration: none;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+.similar-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+.similar-card .sim-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  margin: 0 auto var(--space-3);
+  object-fit: contain;
+  background: var(--bg-surface-2);
+  padding: 8px;
+}
+.similar-card h4 {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}
+.similar-card .sim-rating {
+  font-size: var(--text-sm);
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+/* --- Comments cleanup --- */
+.comments-section {
+  padding: var(--space-12) 0;
+  background: var(--bg-surface-2);
+}
+
+/* --- Mobile responsive for new elements --- */
+@media (max-width: 768px) {
+  .review-toc {
+    gap: 6px;
+    padding: var(--space-4) 0;
+  }
+  .review-toc a {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .testing-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pros-cons-grid {
+    grid-template-columns: 1fr;
+  }
+  .similar-platforms {
+    grid-template-columns: 1fr;
+  }
+}
