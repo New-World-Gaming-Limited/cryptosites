@@ -1,14 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /api/
 
-# Block build scripts and data files
-Disallow: /build_
-Disallow: /generate_
-Disallow: /update_
-Disallow: /add_
-Disallow: /fix_
-Disallow: /link_
-Disallow: /shared_data.json
-Disallow: /.git/
-
-Sitemap: https://cryptosites.com/sitemap.xml
+Sitemap: https://cryptobets.com/sitemap.xml

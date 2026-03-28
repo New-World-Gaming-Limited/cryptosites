@@ -1,15 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Hexagonal shape -->
+  <path d="M16 1.072l12.99 7.5v15l-12.99 7.5-12.99-7.5v-15z" fill="#111827" stroke="#3b82f6" stroke-width="1.5"/>
+  <!-- Inner glow -->
+  <path d="M16 4.072l10.39 6v12l-10.39 6-10.39-6v-12z" fill="url(#hex-gradient)" opacity="0.15"/>
+  <!-- Letter C with Bitcoin-inspired serifs (vertical bars at terminals) -->
+  <g transform="translate(16, 16)">
+    <!-- Main C shape -->
+    <path d="M4.5 -2.5C4.5 -5.8 2.2 -8 -1 -8C-4.6 -8 -7 -5.2 -7 -0.5C-7 4.2 -4.6 7.5 -1 7.5C2.2 7.5 4.5 5.3 4.5 2" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Top serif bar (Bitcoin-inspired vertical stroke) -->
+    <line x1="3.2" y1="-5.5" x2="3.2" y2="-1.5" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Bottom serif bar (Bitcoin-inspired vertical stroke) -->
+    <line x1="3.2" y1="1" x2="3.2" y2="5" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Gradient definition -->
   <defs>
-    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#00d4aa"/>
-      <stop offset="100%" stop-color="#00b894"/>
+    <linearGradient id="hex-gradient" x1="0" y1="0" x2="32" y2="32">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
   </defs>
-  <!-- Hexagon shield -->
-  <path d="M16 2 L28 9 L28 23 L16 30 L4 23 L4 9 Z" fill="none" stroke="url(#fg)" stroke-width="2" stroke-linejoin="round"/>
-  <!-- Chain link / C letterform -->
-  <path d="M20 11 A6 6 0 1 0 20 21" fill="none" stroke="url(#fg)" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Small dot accent -->
-  <circle cx="21" cy="11" r="1.5" fill="#f7b731"/>
-  <circle cx="21" cy="21" r="1.5" fill="#f7b731"/>
 </svg>

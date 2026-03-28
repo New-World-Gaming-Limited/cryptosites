@@ -1,0 +1,2283 @@
+{
+  "site": {
+    "name": "CryptoBets.com",
+    "domain": "cryptobets.com",
+    "tagline": "The Most Trusted Crypto Gambling Guide",
+    "description": "CryptoBets.com is the definitive guide to crypto casinos, sportsbooks, poker rooms, exchanges, and wallets. We test every platform with real cryptocurrency deposits.",
+    "defaultPromoCode": "NEWBONUS",
+    "lastUpdated": "2026-03-24"
+  },
+  "scoring_weights": {
+    "description": "Weighted formula used to calculate overall ratings",
+    "casino": {
+      "ratingBonus": 0.15,
+      "ratingGames": 0.25,
+      "ratingPayment": 0.25,
+      "ratingSecurity": 0.15,
+      "ratingSupport": 0.1,
+      "ratingUX": 0.1
+    },
+    "sports": {
+      "ratingBonus": 0.15,
+      "ratingOdds": 0.25,
+      "ratingPayment": 0.25,
+      "ratingSecurity": 0.15,
+      "ratingSupport": 0.1,
+      "ratingUX": 0.1
+    },
+    "exchange": {
+      "ratingFees": 0.25,
+      "ratingLiquidity": 0.2,
+      "ratingSecurity": 0.25,
+      "ratingAssets": 0.15,
+      "ratingUX": 0.15
+    },
+    "wallet": {
+      "ratingSecurity": 0.35,
+      "ratingAssets": 0.2,
+      "ratingUX": 0.25,
+      "ratingBackup": 0.2
+    },
+    "poker": {
+      "ratingTraffic": 0.2,
+      "ratingRake": 0.25,
+      "ratingGames": 0.2,
+      "ratingPayment": 0.2,
+      "ratingTournaments": 0.15
+    },
+    "lottery": {
+      "ratingJackpot": 0.3,
+      "ratingOdds": 0.25,
+      "ratingPayment": 0.25,
+      "ratingUX": 0.2
+    }
+  },
+  "authors": [
+    {
+      "id": "marcus-chen",
+      "name": "Marcus Chen",
+      "role": "Editor-in-Chief",
+      "bio": "Marcus has been covering crypto gambling since 2018, testing over 200 platforms with real deposits. Former fintech journalist turned full-time crypto casino analyst. Based in Singapore, he specializes in regulatory analysis, provably fair verification, and VIP program comparisons.",
+      "expertise": [
+        "crypto casinos",
+        "sportsbooks",
+        "regulatory compliance",
+        "VIP programs"
+      ],
+      "avatar": "/authors/marcus-chen.jpg",
+      "twitter": "@marcuschen_crypto",
+      "reviewCount": 85
+    },
+    {
+      "id": "elena-volkov",
+      "name": "Elena Volkov",
+      "role": "Senior Exchange Analyst",
+      "bio": "Elena is a blockchain developer and exchange specialist with a background in quantitative finance. She has built DeFi protocols and audited smart contracts for top-tier firms. Her exchange reviews focus on security architecture, fee structures, and liquidity depth.",
+      "expertise": [
+        "crypto exchanges",
+        "DeFi protocols",
+        "blockchain security",
+        "smart contracts"
+      ],
+      "avatar": "/authors/elena-volkov.jpg",
+      "twitter": "@elena_volkov_eth",
+      "reviewCount": 42
+    },
+    {
+      "id": "james-okonkwo",
+      "name": "James Okonkwo",
+      "role": "Poker & Gaming Specialist",
+      "bio": "James is a professional poker player who discovered crypto poker in 2019 and never looked back. He has cashed in multiple CSOP tournaments on CoinPoker and has played millions of hands across every major crypto poker room. His reviews cover rake structures, traffic quality, and tournament value.",
+      "expertise": [
+        "crypto poker",
+        "tournament strategy",
+        "rake analysis",
+        "game selection"
+      ],
+      "avatar": "/authors/james-okonkwo.jpg",
+      "twitter": "@james_crypto_poker",
+      "reviewCount": 28
+    },
+    {
+      "id": "sarah-nakamura",
+      "name": "Sarah Nakamura",
+      "role": "Testing Lead & Wallet Security Specialist",
+      "bio": "Sarah leads the CryptoBets testing team, personally processing 500+ real withdrawals per year across every platform we review. She is also our crypto wallet specialist, with expertise in hardware wallet security, seed phrase management, and DeFi wallet safety. Based in Tokyo.",
+      "expertise": [
+        "withdrawal testing",
+        "wallet security",
+        "hardware wallets",
+        "crypto payments"
+      ],
+      "avatar": "/authors/sarah-nakamura.jpg",
+      "twitter": "@sarah_nakamura_btc",
+      "reviewCount": 65
+    }
+  ],
+  "brands_casino_sports": [
+    {
+      "id": "stake",
+      "name": "Stake.com",
+      "type": [
+        "casino",
+        "sports"
+      ],
+      "overallRating": 9.5,
+      "ratingBonus": 9.0,
+      "ratingGames": 9.5,
+      "ratingPayment": 9.8,
+      "ratingSecurity": 9.5,
+      "ratingSupport": 9.0,
+      "ratingUX": 9.2,
+      "yearEstablished": 2017,
+      "license": "Curacao eGaming (8048/JAZ)",
+      "headquarters": "Curacao",
+      "website": "https://stake.com",
+      "exitLink": "https://stake.com/?c=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "200% up to $2,000",
+      "welcomeBonusAmount": "$2,000",
+      "bonusDetails": "200% first deposit bonus up to $2,000. Requires KYC Level 2. Bonus credited within 24-48 hours. 40x wagering on combined deposit + bonus.",
+      "wageringRequirement": "40x deposit + bonus",
+      "minDeposit": "$100 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "DOGE",
+        "XRP",
+        "USDT",
+        "USDC",
+        "TRX",
+        "BNB",
+        "SOL",
+        "MATIC",
+        "BCH",
+        "APE",
+        "SHIB"
+      ],
+      "cryptoCount": "50+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 10 minutes",
+      "provablyFair": true,
+      "kycRequired": "Optional for small amounts; required for bonus and large withdrawals",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": true,
+      "liveCasino": true,
+      "sportsCovered": 40,
+      "gamesCount": "4,500+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Hacksaw Gaming",
+        "NetEnt",
+        "Stake Originals",
+        "Push Gaming",
+        "Nolimit City"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "World's largest crypto casino by betting volume",
+        "Ultra-fast crypto withdrawals (under 10 minutes)",
+        "4,500+ games including exclusive Stake Originals",
+        "Comprehensive sportsbook covering 40+ sports",
+        "Industry-leading VIP program with dedicated hosts",
+        "Provably fair original games (Crash, Mines, Plinko, Dice)",
+        "Weekly raffles, daily races and ongoing promotions"
+      ],
+      "cons": [
+        "Restricted in US, UK, France, Netherlands and other major jurisdictions",
+        "200% bonus requires KYC Level 2 verification",
+        "40x wagering requirement on combined deposit+bonus is demanding",
+        "No phone support",
+        "Wagering requirement locks 100% of deposits before withdrawal"
+      ],
+      "description": "Stake.com is the world's largest crypto casino and sportsbook, processing billions in bets annually. Founded in 2017 and operating under a Curacao eGaming license, Stake is famous for its provably fair Stake Originals (Crash, Mines, Plinko, Dice), ultra-fast withdrawals averaging under 10 minutes, and an extensive sportsbook covering 40+ sports with live betting and streaming. The 4,500+ game library includes slots, live casino, and table games from top providers including Pragmatic Play, Evolution, and Hacksaw Gaming. The tiered VIP program offers rakeback, weekly/monthly bonuses, and dedicated VIP hosts at upper tiers.",
+      "shortDescription": "World's largest crypto casino and sportsbook with provably fair originals, 4,500+ games, and industry-leading withdrawal speeds.",
+      "baseColour": "#005eff",
+      "textColour": "#ffffff",
+      "tags": [
+        "best-overall",
+        "provably-fair",
+        "fast-withdrawals",
+        "sportsbook",
+        "vip-program",
+        "high-roller"
+      ]
+    },
+    {
+      "id": "bc-game",
+      "name": "BC.Game",
+      "type": [
+        "casino",
+        "sports"
+      ],
+      "overallRating": 9.1,
+      "ratingBonus": 9.2,
+      "ratingGames": 9.3,
+      "ratingPayment": 9.0,
+      "ratingSecurity": 9.0,
+      "ratingSupport": 8.8,
+      "ratingUX": 8.9,
+      "yearEstablished": 2017,
+      "license": "Curacao eGaming (5536/JAZ)",
+      "headquarters": "Curacao",
+      "website": "https://bc.game",
+      "exitLink": "https://bc.game/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "Up to 780% across 4 deposits",
+      "welcomeBonusAmount": "Varies by deposit",
+      "bonusDetails": "Multi-stage welcome bonus up to 780% spread across first 4 deposits, credited in BCD (BC Dollar internal currency). Ongoing promotions, challenges and a gamified VIP ecosystem.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$5 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "DOGE",
+        "XRP",
+        "USDT",
+        "USDC",
+        "TRX",
+        "BNB",
+        "SOL",
+        "MATIC",
+        "DAI",
+        "ADA",
+        "DOT",
+        "LINK"
+      ],
+      "cryptoCount": "150+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 30 minutes",
+      "provablyFair": true,
+      "kycRequired": "Optional for general play; may be requested for large cashouts",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 30,
+      "gamesCount": "10,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Hacksaw Gaming",
+        "BGaming",
+        "BC Originals",
+        "Nolimit City",
+        "Relax Gaming"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email",
+        "Telegram"
+      ],
+      "pros": [
+        "Largest crypto selection of any casino \u2014 150+ cryptocurrencies",
+        "Massive 10,000+ game library including BC Originals",
+        "No mandatory KYC for general play",
+        "Generous 780% welcome bonus across 4 deposits",
+        "Strong community features \u2014 chat, rain, tipping",
+        "Provably fair original games (Crash, Plinko, Dice, Limbo, Wheel)",
+        "Multiple blockchain network support including Layer-2"
+      ],
+      "cons": [
+        "BCD (bonus currency) system can be confusing for new players",
+        "Monthly withdrawal caps may frustrate high-rollers",
+        "Offshore Curacao license only",
+        "Sportsbook less developed than dedicated sportsbooks",
+        "Free spin wagering from welcome bonus is restrictive"
+      ],
+      "description": "BC.Game is a crypto-first online casino supporting 150+ cryptocurrencies across multiple blockchain networks. Launched in 2017, it has grown into one of the most feature-rich platforms in the industry with 10,000+ games, exclusive BC Originals, a sportsbook, and a vibrant community ecosystem featuring chat rooms, rain, and tipping. The multi-stage welcome bonus of up to 780% and gamified VIP program with cashback, level-up bonuses, and a dedicated VIP host make it especially popular among experienced crypto gamblers.",
+      "shortDescription": "Crypto-first casino supporting 150+ coins, 10,000+ games, and a community-driven VIP ecosystem.",
+      "baseColour": "#1a1d27",
+      "textColour": "#f7b731",
+      "tags": [
+        "most-cryptos",
+        "provably-fair",
+        "no-kyc",
+        "community",
+        "big-bonus"
+      ]
+    },
+    {
+      "id": "cloudbet",
+      "name": "Cloudbet",
+      "type": [
+        "casino",
+        "sports"
+      ],
+      "overallRating": 8.8,
+      "ratingBonus": 8.5,
+      "ratingGames": 8.7,
+      "ratingPayment": 9.0,
+      "ratingSecurity": 9.0,
+      "ratingSupport": 8.5,
+      "ratingUX": 8.8,
+      "yearEstablished": 2013,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://cloudbet.com",
+      "exitLink": "https://cloudbet.com/?btag=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "Up to 5 BTC + $2,500 cash package",
+      "welcomeBonusAmount": "5 BTC",
+      "bonusDetails": "100% deposit match up to 5 BTC. Additionally, a 30-day welcome cash package including 10% rakeback on sports, daily cash drops, and a Cash Vault bonus. No wagering on cash rewards.",
+      "wageringRequirement": "Bonus points system (0 wagering on cash rewards)",
+      "minDeposit": "0.001 BTC equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "DOGE",
+        "XRP",
+        "USDT",
+        "USDC",
+        "BCH",
+        "SOL",
+        "BNB",
+        "ADA",
+        "LINK"
+      ],
+      "cryptoCount": "28+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 1 hour",
+      "provablyFair": true,
+      "kycRequired": "KYC required for withdrawals above threshold",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": true,
+      "liveCasino": true,
+      "sportsCovered": 35,
+      "gamesCount": "2,500+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "NetEnt",
+        "Microgaming",
+        "Cloudbet Originals"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "One of the oldest crypto gambling sites \u2014 established 2013",
+        "Industry-leading 5 BTC welcome bonus",
+        "Cash rewards with no wagering requirements",
+        "Excellent sportsbook with competitive odds",
+        "Strong security track record \u2014 no major hacks since 2013",
+        "Available in 15+ languages",
+        "10% rakeback on sports bets during welcome period"
+      ],
+      "cons": [
+        "Smaller game library than newer competitors (2,500 vs 10,000+)",
+        "Welcome bonus points system is complex",
+        "60-day expiry on BTC welcome bonus",
+        "Restricted in many regulated jurisdictions",
+        "No dedicated mobile app"
+      ],
+      "description": "Cloudbet is one of the original crypto gambling platforms, operating since 2013 \u2014 making it a pioneer in the space. Under Curacao license, it offers a 5 BTC welcome bonus alongside a 30-day cash rewards package with no wagering requirements on the cash portion. The sportsbook covers 35+ sports with competitive odds and live streaming, while the casino features 2,500+ games from top providers. Its longevity and security track record make it a trusted choice for experienced crypto gamblers.",
+      "shortDescription": "The original crypto betting site since 2013 \u2014 trusted, secure, with a massive 5 BTC welcome bonus.",
+      "baseColour": "#0f2c6f",
+      "textColour": "#ffffff",
+      "tags": [
+        "established-2013",
+        "trusted",
+        "sports-betting",
+        "big-bonus",
+        "no-wagering-cashback"
+      ]
+    },
+    {
+      "id": "roobet",
+      "name": "Roobet",
+      "type": [
+        "casino",
+        "sports"
+      ],
+      "overallRating": 8.5,
+      "ratingBonus": 8.0,
+      "ratingGames": 8.8,
+      "ratingPayment": 9.2,
+      "ratingSecurity": 8.5,
+      "ratingSupport": 8.3,
+      "ratingUX": 9.0,
+      "yearEstablished": 2018,
+      "license": "Curacao Gaming Authority",
+      "headquarters": "Curacao",
+      "website": "https://roobet.com",
+      "exitLink": "https://roobet.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "20% Cashback for 7 days + $5 Free Bet",
+      "welcomeBonusAmount": "$5 Free Bet",
+      "bonusDetails": "$5 free bet on signup plus 20% cashback on net losses for 7 days. Weekly raffles with $100K prize pool. No traditional deposit match welcome bonus.",
+      "wageringRequirement": "1x on cashback",
+      "minDeposit": "$5 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT",
+        "USDC",
+        "XRP",
+        "DOGE",
+        "SOL",
+        "BNB",
+        "BCH"
+      ],
+      "cryptoCount": "10+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Instant",
+      "provablyFair": true,
+      "kycRequired": "Optional for most users; may be required for large withdrawals",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 25,
+      "gamesCount": "7,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "NetEnt",
+        "Push Gaming",
+        "BGaming",
+        "Roobet Originals"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "SiGMA Best Crypto Casino 2025 award winner",
+        "Instant withdrawals \u2014 fastest in the industry",
+        "7,000+ games with 40+ exclusive Roobet Originals",
+        "Iconic Crash game with up to 113x multiplier",
+        "$100K weekly raffle for all players",
+        "Beautiful purple-themed interface \u2014 20+ languages",
+        "Apple Pay, Google Pay, Visa for crypto purchases"
+      ],
+      "cons": [
+        "No traditional welcome deposit bonus",
+        "No dedicated mobile app (mobile-responsive only)",
+        "Fewer cryptocurrencies than BC.Game",
+        "Not available in US without VPN (VPN not allowed)",
+        "Sports betting section less extensive than pure sportsbooks"
+      ],
+      "description": "Roobet, launched in 2018, won the SiGMA Best Crypto Casino 2025 award for its polished experience and instant crypto withdrawals. With 7,000+ curated games and over 40 exclusive Roobet Originals including the iconic Crash game, it prioritizes quality over quantity. The platform supports 10+ cryptocurrencies with instant deposits and withdrawals, $100K weekly raffles, and an intuitive interface in 20+ languages. While it lacks a traditional deposit bonus, the 7-day 20% cashback and ongoing promotions offer solid value.",
+      "shortDescription": "SiGMA's Best Crypto Casino 2025 with instant withdrawals, 7,000+ games, and the iconic Crash original.",
+      "baseColour": "#6c2dc7",
+      "textColour": "#ffffff",
+      "tags": [
+        "award-winning",
+        "fast-withdrawals",
+        "instant-payouts",
+        "originals",
+        "no-kyc"
+      ]
+    },
+    {
+      "id": "bitstarz",
+      "name": "BitStarz",
+      "type": [
+        "casino"
+      ],
+      "overallRating": 8.7,
+      "ratingBonus": 9.0,
+      "ratingGames": 9.0,
+      "ratingPayment": 9.0,
+      "ratingSecurity": 8.5,
+      "ratingSupport": 8.8,
+      "ratingUX": 8.7,
+      "yearEstablished": 2014,
+      "license": "Curacao eGaming (1668/JAZ)",
+      "headquarters": "Curacao",
+      "website": "https://bitstarz.com",
+      "exitLink": "https://bitstarz.com/?btag=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "Up to $2,000 or 5 BTC + 180 Free Spins",
+      "welcomeBonusAmount": "$2,000 or 5 BTC",
+      "bonusDetails": "Four-stage welcome package: up to $2,000 or 5 BTC plus 180 free spins (20 daily over 9 days after first deposit). 40x wagering on bonus. Plus 50 no-deposit free spins on select slots.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$20 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "DOGE",
+        "BCH",
+        "USDT",
+        "XRP",
+        "BNB",
+        "SOL"
+      ],
+      "cryptoCount": "15+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 10 minutes",
+      "provablyFair": true,
+      "kycRequired": "Optional for small amounts",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": false,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 0,
+      "gamesCount": "7,100+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "NetEnt",
+        "Microgaming",
+        "Play'n GO",
+        "BitStarz Originals",
+        "Hacksaw Gaming"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "Award-winning casino \u2014 multiple industry accolades since 2014",
+        "7,100+ games including BitStarz Originals (Crash, Plinko, Mines, Dice)",
+        "Under 10-minute crypto withdrawal processing",
+        "Generous 5 BTC + 180 free spins welcome package",
+        "50 no-deposit free spins available",
+        "Weekly Slot Wars (\u20ac5,000 + 5,000 FS) and Table Wars (\u20ac10,000) tournaments",
+        "Supports both crypto and fiat payments"
+      ],
+      "cons": [
+        "Casino only \u2014 no sportsbook",
+        "No dedicated mobile app",
+        "Table game contribution only 5% toward wagering",
+        "VIP program is invite-only",
+        "Restricted in some countries"
+      ],
+      "description": "BitStarz, established in 2014, is one of the most decorated crypto casinos in the industry with multiple award wins including WOWAwards Best Online Casino. With 7,100+ games from 35+ providers plus exclusive BitStarz Originals, it offers one of the broadest game libraries available. The four-stage welcome package reaches up to $2,000 or 5 BTC plus 180 free spins, and recurring weekly tournaments including Slot Wars and Table Wars provide ongoing value. Fast sub-10-minute crypto withdrawals and dual crypto/fiat support make it accessible to a wide audience.",
+      "shortDescription": "Award-winning crypto casino since 2014 with 7,100+ games, sub-10-minute withdrawals, and a 5 BTC welcome bonus.",
+      "baseColour": "#1a1a2e",
+      "textColour": "#f0a500",
+      "tags": [
+        "award-winning",
+        "established-2014",
+        "fast-withdrawals",
+        "big-bonus",
+        "slots-specialist"
+      ]
+    },
+    {
+      "id": "mbit",
+      "name": "mBit Casino",
+      "type": [
+        "casino"
+      ],
+      "overallRating": 8.0,
+      "ratingBonus": 8.2,
+      "ratingGames": 9.0,
+      "ratingPayment": 8.5,
+      "ratingSecurity": 7.8,
+      "ratingSupport": 7.8,
+      "ratingUX": 8.0,
+      "yearEstablished": 2014,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://mbitcasino.io",
+      "exitLink": "https://mbitcasino.io/?btag=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "150% up to 1 BTC + 100 Free Spins (first deposit) + 4 BTC total package",
+      "welcomeBonusAmount": "4 BTC",
+      "bonusDetails": "Three-part welcome: 150% up to 1 BTC + 100 FS (1st deposit), 75% up to 1.5 BTC + 125 FS (2nd), 50% up to 1.5 BTC + 100 FS (3rd). Total up to 4 BTC + 325 FS. 40x wagering.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "DOGE",
+        "BCH",
+        "XRP",
+        "USDT",
+        "BNB"
+      ],
+      "cryptoCount": "10+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 15 minutes",
+      "provablyFair": true,
+      "kycRequired": "Optional for small amounts",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": false,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 0,
+      "gamesCount": "8,800+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "BGaming",
+        "Hacksaw Gaming",
+        "mBit Originals",
+        "Betsoft",
+        "Spinomenal"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email",
+        "Discord"
+      ],
+      "pros": [
+        "Massive 8,800+ game library \u2014 largest among Curacao casinos",
+        "RTP displayed on every game tile for transparency",
+        "Under 15-minute withdrawal approvals",
+        "4 BTC + 325 free spins welcome package",
+        "Unique Discord-based player community and support",
+        "Stellar Club loyalty program with daily moneyback",
+        "mBit Originals: Plinko, Mines, Bitty's Dice, Aviator"
+      ],
+      "cons": [
+        "Casino only \u2014 no sportsbook",
+        "Bonus slots-only, table games excluded",
+        "Tight 7-day bonus expiry timers",
+        "No dedicated mobile app",
+        "Smaller crypto selection than BC.Game"
+      ],
+      "description": "mBit Casino, launched in 2014 by Dama N.V., is a slots-first crypto casino with one of the largest game libraries at 8,800+ titles. What sets it apart is the RTP displayed on every game tile, allowing players to make informed choices. The three-part welcome package reaches up to 4 BTC plus 325 free spins with 40x wagering. Withdrawals are typically approved in under 15 minutes. The Stellar Club loyalty program offers daily moneyback, weekly deposit matches, and a rewards shop. The Discord community and support channel is unique in the industry.",
+      "shortDescription": "Slots-first crypto casino with 8,800+ games, RTP transparency on every title, and sub-15-minute withdrawals.",
+      "baseColour": "#1e1b4b",
+      "textColour": "#f59e0b",
+      "tags": [
+        "biggest-library",
+        "slots-specialist",
+        "rtp-transparency",
+        "discord-community"
+      ]
+    },
+    {
+      "id": "fortunejack",
+      "name": "FortuneJack",
+      "type": [
+        "casino",
+        "sports"
+      ],
+      "overallRating": 8.3,
+      "ratingBonus": 8.0,
+      "ratingGames": 8.5,
+      "ratingPayment": 8.8,
+      "ratingSecurity": 8.2,
+      "ratingSupport": 8.0,
+      "ratingUX": 8.2,
+      "yearEstablished": 2014,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://fortunejack.com",
+      "exitLink": "https://fortunejack.com/?btag=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "110% up to 1.5 BTC + 250 Free Spins",
+      "welcomeBonusAmount": "1.5 BTC",
+      "bonusDetails": "Multi-stage welcome: 110% up to 1.5 BTC + 250 FS across first deposits. Daily promotions, reload bonuses, and a comprehensive VIP/loyalty program.",
+      "wageringRequirement": "30x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "LTC",
+        "ETH",
+        "DOGE",
+        "DASH",
+        "BCH",
+        "TRX",
+        "USDT",
+        "BNB",
+        "SOL"
+      ],
+      "cryptoCount": "12+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 15 minutes",
+      "provablyFair": true,
+      "kycRequired": "Optional",
+      "vpnAllowed": true,
+      "mobileApp": false,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 20,
+      "gamesCount": "5,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "BGaming",
+        "Hacksaw Gaming",
+        "FortuneJack Originals"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "One of the earliest crypto casinos \u2014 established 2014",
+        "Lower 30x wagering requirement vs industry standard 40x",
+        "US-friendly \u2014 accepts US players",
+        "Fast instant crypto deposits and withdrawals",
+        "Provably fair dice and original games",
+        "Active daily promotions and loyalty rewards",
+        "VPN allowed \u2014 accessible from more countries"
+      ],
+      "cons": [
+        "Interface looks dated compared to newer platforms",
+        "Sportsbook has fewer markets than dedicated sportsbooks",
+        "No dedicated mobile app",
+        "Customer support response can be slow during peak times"
+      ],
+      "description": "FortuneJack has been a trusted name in crypto gambling since 2014. Operating under a Curacao license, it accepts US players and allows VPN usage \u2014 making it one of the most accessible platforms globally. The 5,000+ game library covers slots, live casino, table games, and provably fair FortuneJack Originals including dice. A lower 30x wagering requirement and welcome bonus of 1.5 BTC + 250 free spins provide good value. Instant crypto withdrawals and daily promotions keep the experience fresh for regular players.",
+      "shortDescription": "Established crypto casino since 2014, US-friendly with 30x wagering and instant BTC withdrawals.",
+      "baseColour": "#0a3d62",
+      "textColour": "#f9ca24",
+      "tags": [
+        "established-2014",
+        "us-friendly",
+        "vpn-allowed",
+        "provably-fair",
+        "low-wagering"
+      ]
+    },
+    {
+      "id": "sportsbet-io",
+      "name": "Sportsbet.io",
+      "type": [
+        "sports",
+        "casino"
+      ],
+      "overallRating": 8.6,
+      "ratingBonus": 8.3,
+      "ratingGames": 8.5,
+      "ratingPayment": 9.2,
+      "ratingSecurity": 8.5,
+      "ratingSupport": 8.5,
+      "ratingUX": 9.0,
+      "yearEstablished": 2016,
+      "license": "Curacao eGaming (reformed CGA)",
+      "headquarters": "Curacao",
+      "website": "https://sportsbet.io",
+      "exitLink": "https://sportsbet.io/?btag=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "Weekly free bet value + Price Boosts",
+      "welcomeBonusAmount": "Ongoing weekly value",
+      "bonusDetails": "Daily Price Boosts on major sports markets. Weekly free-bet offers via opt-in stake targets. High-roller VIP with tailored bonuses. No traditional deposit match welcome bonus.",
+      "wageringRequirement": "Varies by promotion",
+      "minDeposit": "$1 equivalent in crypto",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "TRX",
+        "USDT",
+        "SOL",
+        "BNB",
+        "DOGE"
+      ],
+      "cryptoCount": "8+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Instant for crypto",
+      "provablyFair": false,
+      "kycRequired": "Required for larger cashouts",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": true,
+      "liveCasino": true,
+      "sportsCovered": 45,
+      "gamesCount": "2,000+",
+      "gameProviders": [
+        "Evolution",
+        "Pragmatic Play",
+        "NetEnt",
+        "Microgaming"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "Premier crypto sportsbook with Arsenal FC and major club sponsorships",
+        "45+ sports covered with deep markets including esports",
+        "Instant crypto withdrawals \u2014 no house fees",
+        "Live streaming on select sports and esports events",
+        "Polished mobile UX with Android APK download",
+        "Very low minimum deposits (from $1 in crypto)",
+        "Bet Builder for custom same-game parlays"
+      ],
+      "cons": [
+        "Not available in the United States",
+        "No traditional welcome deposit match bonus",
+        "Casino section smaller than dedicated casinos",
+        "KYC can be strict for larger cashouts",
+        "Mixed player reviews regarding account limits after big wins"
+      ],
+      "description": "Sportsbet.io is one of the world's premier crypto-first sportsbooks, backed by high-profile sponsorships including Arsenal FC, S\u00e3o Paulo FC, and major esports organizations. Founded in 2016 and operating under a reformed Curacao CGA license, it covers 45+ sports with deep live betting markets, a Bet Builder for custom parlays, and live streaming on select events. Instant crypto withdrawals with no house fees and a very low minimum deposit from $1 make it accessible. The mobile UX is among the best in the industry.",
+      "shortDescription": "Premier crypto sportsbook with Arsenal FC sponsorship, 45+ sports, instant withdrawals, and a polished mobile UX.",
+      "baseColour": "#1a2332",
+      "textColour": "#00d4ff",
+      "tags": [
+        "best-sportsbook",
+        "esports",
+        "fast-withdrawals",
+        "mobile-first",
+        "low-minimum"
+      ]
+    },
+    {
+      "id": "thunderpick",
+      "name": "Thunderpick",
+      "type": [
+        "sports",
+        "casino"
+      ],
+      "overallRating": 8.3,
+      "ratingBonus": 8.0,
+      "ratingGames": 8.2,
+      "ratingPayment": 8.8,
+      "ratingSecurity": 8.3,
+      "ratingSupport": 8.0,
+      "ratingUX": 8.8,
+      "yearEstablished": 2017,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://thunderpick.io",
+      "exitLink": "https://thunderpick.io/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $500 Sports Bonus",
+      "welcomeBonusAmount": "$500",
+      "bonusDetails": "100% sports welcome bonus up to $500. Regular esports-specific promotions, tournaments, and VIP rewards.",
+      "wageringRequirement": "5x bonus at minimum 1.5 odds",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT",
+        "SOL",
+        "BNB",
+        "XRP"
+      ],
+      "cryptoCount": "7+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 1 hour",
+      "provablyFair": true,
+      "kycRequired": "Optional for small amounts",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": true,
+      "liveStreaming": true,
+      "liveCasino": true,
+      "sportsCovered": 30,
+      "gamesCount": "1,500+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Thunderpick Originals"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "Best-in-class esports betting markets (CS:GO, Dota 2, LoL, Valorant)",
+        "Clean, modern interface praised by esports community",
+        "Instant crypto deposits and fast withdrawals",
+        "Low 5x wagering on sports welcome bonus",
+        "Live esports streaming on select matches",
+        "Provably fair casino games"
+      ],
+      "cons": [
+        "Smaller overall game library than competitors",
+        "No dedicated mobile app",
+        "Mixed Trustpilot reviews (3.2/5) regarding support",
+        "Limited payment options vs larger platforms",
+        "Casino section is secondary to the sportsbook"
+      ],
+      "description": "Thunderpick is the go-to platform for esports betting in the crypto space, offering comprehensive markets on CS:GO, Dota 2, League of Legends, Valorant, and other major esports titles with live streaming on select events. Founded in 2017, it operates under a Curacao license with a clean modern interface that has been praised by the esports community. The 100% sports welcome bonus up to $500 carries a low 5x wagering requirement, and instant crypto payments ensure fast access to winnings.",
+      "shortDescription": "The leading crypto esports betting site with comprehensive markets, live streaming, and a low 5x wagering bonus.",
+      "baseColour": "#1a1a2e",
+      "textColour": "#e94560",
+      "tags": [
+        "esports",
+        "best-esports",
+        "sportsbook",
+        "clean-design",
+        "low-wagering"
+      ]
+    },
+    {
+      "id": "vave",
+      "name": "Vave",
+      "type": [
+        "casino",
+        "sports"
+      ],
+      "overallRating": 8.4,
+      "ratingBonus": 8.5,
+      "ratingGames": 8.3,
+      "ratingPayment": 9.0,
+      "ratingSecurity": 8.2,
+      "ratingSupport": 8.0,
+      "ratingUX": 8.5,
+      "yearEstablished": 2021,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://vave.com",
+      "exitLink": "https://vave.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to 1 BTC + 100 Free Spins",
+      "welcomeBonusAmount": "1 BTC",
+      "bonusDetails": "100% first deposit match up to 1 BTC plus 100 free spins. Fast withdrawals guaranteed within minutes.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT",
+        "SOL",
+        "BNB",
+        "DOGE",
+        "XRP"
+      ],
+      "cryptoCount": "10+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 5 minutes",
+      "provablyFair": true,
+      "kycRequired": "Optional",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 25,
+      "gamesCount": "4,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Hacksaw Gaming",
+        "Nolimit City",
+        "BGaming"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "Among the fastest withdrawal speeds \u2014 under 5 minutes",
+        "4,000+ games from top providers",
+        "Competitive 1 BTC welcome bonus",
+        "Both casino and sportsbook in one platform",
+        "Clean modern interface"
+      ],
+      "cons": [
+        "Newer platform (2021) with shorter track record",
+        "No dedicated mobile app",
+        "Smaller sportsbook than dedicated bookmakers",
+        "Limited crypto selection compared to BC.Game"
+      ],
+      "description": "Vave is a modern crypto casino and sportsbook launched in 2021, quickly establishing a reputation for some of the fastest withdrawal speeds in the industry at under 5 minutes. Operating under a Curacao license, it offers 4,000+ games from top providers with a 1 BTC welcome bonus plus 100 free spins. The combined casino and sportsbook platform covers 25 sports with live betting.",
+      "shortDescription": "Modern crypto casino and sportsbook with sub-5-minute withdrawals and a 1 BTC welcome bonus.",
+      "baseColour": "#0d1b2a",
+      "textColour": "#4cc9f0",
+      "tags": [
+        "fast-withdrawals",
+        "new-platform",
+        "casino",
+        "sports"
+      ]
+    },
+    {
+      "id": "duelbits",
+      "name": "Duelbits",
+      "type": [
+        "casino",
+        "sports"
+      ],
+      "overallRating": 8.2,
+      "ratingBonus": 8.0,
+      "ratingGames": 8.3,
+      "ratingPayment": 8.5,
+      "ratingSecurity": 8.0,
+      "ratingSupport": 8.0,
+      "ratingUX": 8.5,
+      "yearEstablished": 2019,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://duelbits.com",
+      "exitLink": "https://duelbits.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "200% up to $200 + 50 Free Spins",
+      "welcomeBonusAmount": "$200",
+      "bonusDetails": "200% welcome bonus up to $200 plus 50 free spins. Rakeback program and regular promotions for existing players.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT",
+        "SOL",
+        "BNB",
+        "DOGE"
+      ],
+      "cryptoCount": "7+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 30 minutes",
+      "provablyFair": true,
+      "kycRequired": "Optional",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 20,
+      "gamesCount": "3,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Hacksaw Gaming",
+        "Duelbits Originals"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "200% welcome bonus with straightforward terms",
+        "Exclusive Duelbits Originals with provably fair mechanics",
+        "Rakeback program for regular players",
+        "Combined casino and sportsbook",
+        "Clean interface with responsive design"
+      ],
+      "cons": [
+        "Smaller bonus cap ($200) than competitors",
+        "No dedicated mobile app",
+        "Fewer sports markets than dedicated sportsbooks",
+        "Limited crypto selection"
+      ],
+      "description": "Duelbits is a crypto casino and sportsbook launched in 2019, known for its exclusive Duelbits Originals with provably fair mechanics and a rakeback program for regular players. The 200% welcome bonus is generous in percentage terms and the platform offers 3,000+ games from top providers alongside a sportsbook covering 20 sports.",
+      "shortDescription": "Crypto casino and sportsbook with 200% bonus, exclusive originals, and a rakeback program.",
+      "baseColour": "#13111c",
+      "textColour": "#7c3aed",
+      "tags": [
+        "originals",
+        "rakeback",
+        "casino",
+        "sports",
+        "provably-fair"
+      ]
+    },
+    {
+      "id": "gamdom",
+      "name": "Gamdom",
+      "type": [
+        "casino",
+        "sports"
+      ],
+      "overallRating": 8.0,
+      "ratingBonus": 8.0,
+      "ratingGames": 8.2,
+      "ratingPayment": 8.3,
+      "ratingSecurity": 7.8,
+      "ratingSupport": 7.8,
+      "ratingUX": 8.5,
+      "yearEstablished": 2016,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://gamdom.com",
+      "exitLink": "https://gamdom.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "15% Rakeback for 7 days",
+      "welcomeBonusAmount": "15% Rakeback",
+      "bonusDetails": "15% instant rakeback for the first 7 days. Ongoing rakeback and Hellcase case opening integration. Community-driven promotions.",
+      "wageringRequirement": "No wagering on rakeback",
+      "minDeposit": "$5 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT",
+        "SOL",
+        "BNB"
+      ],
+      "cryptoCount": "6+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 1 hour",
+      "provablyFair": true,
+      "kycRequired": "Optional",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 20,
+      "gamesCount": "2,500+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Gamdom Originals"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email",
+        "Discord"
+      ],
+      "pros": [
+        "Rakeback system with no wagering requirements",
+        "CS:GO and esports betting integration",
+        "Hellcase CS:GO case opening integration unique in the market",
+        "Active Discord community",
+        "Established since 2016"
+      ],
+      "cons": [
+        "Smaller game library than top competitors",
+        "Limited crypto options",
+        "No traditional welcome bonus",
+        "Interface less polished than newer platforms"
+      ],
+      "description": "Gamdom, launched in 2016, is a crypto casino and sportsbook known for its rakeback system and unique CS:GO skin and case opening integration via Hellcase. Popular with the esports community, it offers 2,500+ games, 20 sports for betting, and an active Discord community.",
+      "shortDescription": "Crypto casino and sportsbook with rakeback, CS:GO skin integration, and active esports community since 2016.",
+      "baseColour": "#1a0533",
+      "textColour": "#c084fc",
+      "tags": [
+        "rakeback",
+        "esports",
+        "csgo",
+        "no-wagering",
+        "community"
+      ]
+    },
+    {
+      "id": "wild-io",
+      "name": "Wild.io",
+      "type": [
+        "casino"
+      ],
+      "overallRating": 7.8,
+      "ratingBonus": 7.5,
+      "ratingGames": 8.0,
+      "ratingPayment": 8.0,
+      "ratingSecurity": 7.5,
+      "ratingSupport": 7.5,
+      "ratingUX": 8.3,
+      "yearEstablished": 2021,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://wild.io",
+      "exitLink": "https://wild.io/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "150% up to 1 BTC + 500 Free Spins",
+      "welcomeBonusAmount": "1 BTC",
+      "bonusDetails": "150% first deposit up to 1 BTC plus 500 free spins. NFT-themed promotions and crypto-native features.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "BNB",
+        "USDT",
+        "DOGE"
+      ],
+      "cryptoCount": "6+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 1 hour",
+      "provablyFair": false,
+      "kycRequired": "Optional",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": false,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 0,
+      "gamesCount": "3,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Hacksaw Gaming"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "NFT integration and crypto-native features",
+        "500 free spins welcome offer",
+        "Modern visual design"
+      ],
+      "cons": [
+        "Casino only \u2014 no sportsbook",
+        "Newer platform with shorter track record",
+        "Limited crypto selection",
+        "No provably fair games"
+      ],
+      "description": "Wild.io is a modern crypto casino launched in 2021 with NFT integration and crypto-native features. It offers 3,000+ games and a generous 1 BTC + 500 free spins welcome bonus.",
+      "shortDescription": "Modern crypto casino with NFT integration, 3,000+ games, and a 500 free spins welcome bonus.",
+      "baseColour": "#0f172a",
+      "textColour": "#38bdf8",
+      "tags": [
+        "nft",
+        "modern",
+        "casino",
+        "slots"
+      ]
+    },
+    {
+      "id": "betplay",
+      "name": "BetPlay",
+      "type": [
+        "sports",
+        "casino"
+      ],
+      "overallRating": 7.9,
+      "ratingBonus": 7.8,
+      "ratingGames": 7.8,
+      "ratingPayment": 8.2,
+      "ratingSecurity": 7.8,
+      "ratingSupport": 7.5,
+      "ratingUX": 8.0,
+      "yearEstablished": 2019,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://betplay.io",
+      "exitLink": "https://betplay.io/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $500 + 50 Free Spins",
+      "welcomeBonusAmount": "$500",
+      "bonusDetails": "100% first deposit match up to $500 plus 50 free spins. Regular sports promotions and reload bonuses.",
+      "wageringRequirement": "35x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT",
+        "SOL",
+        "DOGE"
+      ],
+      "cryptoCount": "6+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 1 hour",
+      "provablyFair": false,
+      "kycRequired": "Optional",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 25,
+      "gamesCount": "2,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "BGaming"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "Lower 35x wagering requirement",
+        "Combined sportsbook and casino",
+        "Fast crypto payments",
+        "Good selection of sports markets"
+      ],
+      "cons": [
+        "Smaller game and sports library than top platforms",
+        "Limited brand recognition",
+        "No mobile app"
+      ],
+      "description": "BetPlay is a crypto sportsbook and casino offering 25+ sports markets and 2,000+ casino games with a 100% up to $500 welcome bonus at a lower 35x wagering requirement.",
+      "shortDescription": "Crypto sportsbook and casino with a 35x wagering welcome bonus and 25+ sports markets.",
+      "baseColour": "#0c1a2e",
+      "textColour": "#3b82f6",
+      "tags": [
+        "sports",
+        "casino",
+        "low-wagering"
+      ]
+    },
+    {
+      "id": "1xbet",
+      "name": "1xBet",
+      "type": [
+        "sports",
+        "casino"
+      ],
+      "overallRating": 8.1,
+      "ratingBonus": 8.5,
+      "ratingGames": 8.0,
+      "ratingPayment": 8.0,
+      "ratingSecurity": 7.5,
+      "ratingSupport": 7.8,
+      "ratingUX": 8.0,
+      "yearEstablished": 2007,
+      "license": "Curacao eGaming",
+      "headquarters": "Cyprus",
+      "website": "https://1xbet.com",
+      "exitLink": "https://1xbet.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $130",
+      "welcomeBonusAmount": "$130",
+      "bonusDetails": "100% sports welcome bonus up to $130 for new customers. Extensive promotions including accumulator boosts and casino reload bonuses.",
+      "wageringRequirement": "5x at odds 1.40+",
+      "minDeposit": "$1 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT",
+        "BNB",
+        "DOGE",
+        "XRP",
+        "TRX",
+        "SOL"
+      ],
+      "cryptoCount": "20+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "1-24 hours",
+      "provablyFair": false,
+      "kycRequired": "Required",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": true,
+      "liveCasino": true,
+      "sportsCovered": 60,
+      "gamesCount": "7,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Microgaming",
+        "Playtech",
+        "NetEnt"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email",
+        "Phone"
+      ],
+      "pros": [
+        "Established since 2007 \u2014 one of the oldest online bookmakers",
+        "60+ sports covered \u2014 most comprehensive sportsbook",
+        "Very low minimum deposit ($1)",
+        "7,000+ casino games",
+        "Full mobile app for iOS and Android",
+        "Live streaming on thousands of events"
+      ],
+      "cons": [
+        "Controversial regulatory history in some jurisdictions",
+        "KYC required for all users",
+        "Withdrawal processing can take up to 24 hours",
+        "Some countries restricted"
+      ],
+      "description": "1xBet is one of the world's largest sports betting platforms, operating since 2007. With 60+ sports, live streaming on thousands of events, and a comprehensive casino with 7,000+ games, it offers the most extensive market coverage. Accepts 20+ cryptocurrencies with low $1 minimum deposits.",
+      "shortDescription": "One of the world's largest sportsbooks since 2007 with 60+ sports, live streaming, and 20+ cryptos accepted.",
+      "baseColour": "#0070cd",
+      "textColour": "#ffffff",
+      "tags": [
+        "established",
+        "most-sports",
+        "live-streaming",
+        "low-minimum"
+      ]
+    },
+    {
+      "id": "1xbit",
+      "name": "1xBit",
+      "type": [
+        "sports",
+        "casino"
+      ],
+      "overallRating": 7.8,
+      "ratingBonus": 8.0,
+      "ratingGames": 7.8,
+      "ratingPayment": 8.0,
+      "ratingSecurity": 7.3,
+      "ratingSupport": 7.5,
+      "ratingUX": 7.8,
+      "yearEstablished": 2016,
+      "license": "Curacao eGaming",
+      "headquarters": "Cyprus",
+      "website": "https://1xbit.com",
+      "exitLink": "https://1xbit.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to 1 BTC",
+      "welcomeBonusAmount": "1 BTC",
+      "bonusDetails": "100% first deposit bonus up to 1 BTC. Crypto-exclusive sister platform of 1xBet with anonymous access.",
+      "wageringRequirement": "35x bonus",
+      "minDeposit": "$1 equivalent in crypto",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "DOGE",
+        "XRP",
+        "USDT",
+        "BNB",
+        "SOL",
+        "TRX",
+        "BCH"
+      ],
+      "cryptoCount": "30+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "1-12 hours",
+      "provablyFair": false,
+      "kycRequired": "Not required",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": true,
+      "liveCasino": true,
+      "sportsCovered": 50,
+      "gamesCount": "5,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Microgaming",
+        "Playtech"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "Crypto-exclusive sister site of 1xBet",
+        "No KYC required for most users",
+        "30+ cryptocurrencies accepted",
+        "50+ sports markets",
+        "1 BTC welcome bonus"
+      ],
+      "cons": [
+        "Less established reputation than 1xBet",
+        "Slower withdrawals than some competitors",
+        "Interface less polished than newer platforms"
+      ],
+      "description": "1xBit is the crypto-exclusive sister platform of 1xBet, launched in 2016. It offers anonymous access, 30+ cryptocurrencies, 50+ sports markets, and a 1 BTC welcome bonus without mandatory KYC.",
+      "shortDescription": "Crypto-exclusive no-KYC sportsbook and casino with 30+ cryptos and 50+ sports markets.",
+      "baseColour": "#1a1a1a",
+      "textColour": "#f7b731",
+      "tags": [
+        "no-kyc",
+        "anonymous",
+        "sports",
+        "casino",
+        "crypto-exclusive"
+      ]
+    },
+    {
+      "id": "lucky-block",
+      "name": "Lucky Block",
+      "type": [
+        "casino",
+        "sports"
+      ],
+      "overallRating": 7.7,
+      "ratingBonus": 8.0,
+      "ratingGames": 7.5,
+      "ratingPayment": 7.8,
+      "ratingSecurity": 7.5,
+      "ratingSupport": 7.5,
+      "ratingUX": 8.0,
+      "yearEstablished": 2022,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://luckyblock.com",
+      "exitLink": "https://luckyblock.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "200% up to $10,000",
+      "welcomeBonusAmount": "$10,000",
+      "bonusDetails": "200% welcome bonus up to $10,000 for new players. Built on blockchain with NFT-powered VIP membership.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "USDT",
+        "LBLOCK",
+        "SOL",
+        "BNB"
+      ],
+      "cryptoCount": "6+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 2 hours",
+      "provablyFair": false,
+      "kycRequired": "Optional",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 25,
+      "gamesCount": "2,500+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "Headline-grabbing $10,000 maximum bonus",
+        "Blockchain-native with NFT VIP membership",
+        "Modern interface with crypto-first design"
+      ],
+      "cons": [
+        "Newer platform (2022) with limited track record",
+        "High $10,000 max bonus has very high wagering targets",
+        "Limited game and crypto selection",
+        "Niche native LBLOCK token required for best rewards"
+      ],
+      "description": "Lucky Block is a blockchain-native crypto casino and sportsbook launched in 2022, featuring NFT-powered VIP memberships and a headline 200% up to $10,000 welcome bonus. Built with a crypto-first philosophy using LBLOCK token rewards.",
+      "shortDescription": "Blockchain-native crypto casino with NFT VIP memberships and a headline $10,000 welcome bonus.",
+      "baseColour": "#0a0e1a",
+      "textColour": "#ffd700",
+      "tags": [
+        "blockchain-native",
+        "nft",
+        "big-bonus",
+        "casino",
+        "sports"
+      ]
+    },
+    {
+      "id": "mega-dice",
+      "name": "Mega Dice",
+      "type": [
+        "casino"
+      ],
+      "overallRating": 7.5,
+      "ratingBonus": 7.5,
+      "ratingGames": 7.5,
+      "ratingPayment": 7.8,
+      "ratingSecurity": 7.3,
+      "ratingSupport": 7.3,
+      "ratingUX": 7.8,
+      "yearEstablished": 2023,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://megadice.com",
+      "exitLink": "https://megadice.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "200% up to $300 + 50 Free Spins",
+      "welcomeBonusAmount": "$300",
+      "bonusDetails": "200% welcome bonus up to $300 plus 50 free spins. Telegram-integrated platform with instant payouts.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$5 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "USDT"
+      ],
+      "cryptoCount": "4+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 1 hour",
+      "provablyFair": true,
+      "kycRequired": "Not required",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": false,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 0,
+      "gamesCount": "2,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "BGaming"
+      ],
+      "customerSupport": [
+        "Telegram",
+        "Email"
+      ],
+      "pros": [
+        "Telegram-integrated for seamless mobile access",
+        "No KYC required",
+        "Provably fair games",
+        "Fast instant payouts"
+      ],
+      "cons": [
+        "New platform (2023) with very limited track record",
+        "Very limited crypto selection (4 coins)",
+        "No sportsbook",
+        "Support mainly via Telegram only"
+      ],
+      "description": "Mega Dice is a Telegram-integrated crypto casino launched in 2023, offering no-KYC gameplay with provably fair dice and casino games. 2,000+ games with instant payouts.",
+      "shortDescription": "Telegram-integrated no-KYC crypto casino with provably fair games and instant payouts.",
+      "baseColour": "#1a1a2e",
+      "textColour": "#6c63ff",
+      "tags": [
+        "telegram",
+        "no-kyc",
+        "provably-fair",
+        "instant-payouts"
+      ]
+    },
+    {
+      "id": "megapari",
+      "name": "MegaPari",
+      "type": [
+        "sports",
+        "casino"
+      ],
+      "overallRating": 7.6,
+      "ratingBonus": 7.8,
+      "ratingGames": 7.8,
+      "ratingPayment": 7.8,
+      "ratingSecurity": 7.2,
+      "ratingSupport": 7.3,
+      "ratingUX": 7.5,
+      "yearEstablished": 2019,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://megapari.com",
+      "exitLink": "https://megapari.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $400 + 150 Free Spins",
+      "welcomeBonusAmount": "$400",
+      "bonusDetails": "100% up to $400 sports welcome + 150 free spins for casino. Multiple crypto payment options with fast transactions.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$1 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "DOGE",
+        "XRP",
+        "USDT",
+        "BNB",
+        "SOL",
+        "TRX"
+      ],
+      "cryptoCount": "15+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "1-6 hours",
+      "provablyFair": false,
+      "kycRequired": "Required for withdrawals",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": true,
+      "liveCasino": true,
+      "sportsCovered": 40,
+      "gamesCount": "5,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Microgaming",
+        "NetEnt"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "40+ sports with live streaming",
+        "5,000+ casino games",
+        "15+ cryptocurrencies",
+        "Mobile app available",
+        "$1 minimum deposit"
+      ],
+      "cons": [
+        "KYC required for withdrawals",
+        "Slower withdrawals than top platforms",
+        "Average interface design"
+      ],
+      "description": "MegaPari is a crypto sportsbook and casino operating since 2019 with 40+ sports, live streaming, and 5,000+ casino games. Accepts 15+ cryptocurrencies with a $1 minimum deposit.",
+      "shortDescription": "Crypto sportsbook and casino with 40+ sports, live streaming, and a $1 minimum deposit.",
+      "baseColour": "#1c1c2e",
+      "textColour": "#e040fb",
+      "tags": [
+        "sports",
+        "casino",
+        "low-minimum",
+        "live-streaming"
+      ]
+    },
+    {
+      "id": "melbet",
+      "name": "Melbet",
+      "type": [
+        "sports"
+      ],
+      "overallRating": 7.3,
+      "ratingBonus": 7.5,
+      "ratingGames": 7.0,
+      "ratingPayment": 7.5,
+      "ratingSecurity": 7.0,
+      "ratingSupport": 7.2,
+      "ratingUX": 7.5,
+      "yearEstablished": 2012,
+      "license": "Curacao eGaming",
+      "headquarters": "Cyprus",
+      "website": "https://melbet.com",
+      "exitLink": "https://melbet.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $130",
+      "welcomeBonusAmount": "$130",
+      "bonusDetails": "100% sports welcome bonus up to $130. Crypto accepted alongside fiat.",
+      "wageringRequirement": "5x at odds 1.40+",
+      "minDeposit": "$1 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT",
+        "XRP"
+      ],
+      "cryptoCount": "5+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "1-24 hours",
+      "provablyFair": false,
+      "kycRequired": "Required",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": true,
+      "liveCasino": true,
+      "sportsCovered": 50,
+      "gamesCount": "3,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution"
+      ],
+      "customerSupport": [
+        "Live Chat 24/7",
+        "Email"
+      ],
+      "pros": [
+        "50+ sports \u2014 extensive market coverage",
+        "Established since 2012",
+        "Live streaming on many events",
+        "Mobile app available",
+        "Low minimum deposit"
+      ],
+      "cons": [
+        "Limited crypto selection (5 coins)",
+        "KYC required",
+        "Withdrawal processing up to 24 hours",
+        "Modest bonus compared to crypto-native sites"
+      ],
+      "description": "Melbet has been operating since 2012 and offers one of the most extensive sports betting markets with 50+ sports and live streaming. Accepts major cryptocurrencies alongside fiat with a $1 minimum deposit.",
+      "shortDescription": "Long-running sportsbook since 2012 with 50+ sports, live streaming, and crypto payment support.",
+      "baseColour": "#1a1a2e",
+      "textColour": "#ff6b35",
+      "tags": [
+        "established",
+        "sports-betting",
+        "live-streaming"
+      ]
+    },
+    {
+      "id": "paripesa",
+      "name": "Paripesa",
+      "type": [
+        "sports"
+      ],
+      "overallRating": 7.1,
+      "ratingBonus": 7.2,
+      "ratingGames": 6.8,
+      "ratingPayment": 7.3,
+      "ratingSecurity": 7.0,
+      "ratingSupport": 7.0,
+      "ratingUX": 7.2,
+      "yearEstablished": 2019,
+      "license": "Curacao eGaming",
+      "headquarters": "Cyprus",
+      "website": "https://paripesa.bet",
+      "exitLink": "https://paripesa.bet/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $100",
+      "welcomeBonusAmount": "$100",
+      "bonusDetails": "100% sports welcome bonus up to $100. Crypto-friendly with major coins accepted.",
+      "wageringRequirement": "5x at odds 1.50+",
+      "minDeposit": "$1 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "USDT",
+        "LTC"
+      ],
+      "cryptoCount": "4+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "1-24 hours",
+      "provablyFair": false,
+      "kycRequired": "Required",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 35,
+      "gamesCount": "2,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "Mobile app available",
+        "35+ sports markets",
+        "Low minimum deposit",
+        "Fast registration process"
+      ],
+      "cons": [
+        "Limited crypto selection",
+        "No live streaming",
+        "Smaller welcome bonus than competitors",
+        "KYC required"
+      ],
+      "description": "Paripesa is a crypto-friendly sportsbook launched in 2019, offering 35+ sports markets, a mobile app, and a $1 minimum deposit with major cryptocurrencies accepted.",
+      "shortDescription": "Crypto-friendly sportsbook with 35+ sports, mobile app, and $1 minimum deposit.",
+      "baseColour": "#0d3b6e",
+      "textColour": "#f0f4f8",
+      "tags": [
+        "sports-betting",
+        "mobile-app",
+        "low-minimum"
+      ]
+    },
+    {
+      "id": "linebet",
+      "name": "Linebet",
+      "type": [
+        "sports"
+      ],
+      "overallRating": 7.4,
+      "ratingBonus": 7.2,
+      "ratingGames": 7.3,
+      "ratingPayment": 7.5,
+      "ratingSecurity": 7.2,
+      "ratingSupport": 7.3,
+      "ratingUX": 7.5,
+      "yearEstablished": 2020,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://linebet.com",
+      "exitLink": "https://linebet.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $200",
+      "welcomeBonusAmount": "$200",
+      "bonusDetails": "100% sports welcome bonus up to $200 for new members.",
+      "wageringRequirement": "5x at odds 1.40+",
+      "minDeposit": "$5 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT",
+        "XRP"
+      ],
+      "cryptoCount": "5+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "1-12 hours",
+      "provablyFair": false,
+      "kycRequired": "Required",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": true,
+      "liveCasino": true,
+      "sportsCovered": 35,
+      "gamesCount": "2,500+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "Live streaming on many sports events",
+        "Mobile app",
+        "35+ sports",
+        "Competitive odds"
+      ],
+      "cons": [
+        "Limited crypto selection",
+        "KYC required",
+        "Smaller welcome bonus"
+      ],
+      "description": "Linebet is a crypto-friendly sportsbook launched in 2020 offering 35+ sports with live streaming and a mobile app.",
+      "shortDescription": "Crypto sportsbook with 35+ sports, live streaming, and a mobile app.",
+      "baseColour": "#001f3f",
+      "textColour": "#ffffff",
+      "tags": [
+        "sports-betting",
+        "live-streaming",
+        "mobile-app"
+      ]
+    },
+    {
+      "id": "helabet",
+      "name": "Helabet",
+      "type": [
+        "sports"
+      ],
+      "overallRating": 7.2,
+      "ratingBonus": 7.0,
+      "ratingGames": 7.0,
+      "ratingPayment": 7.5,
+      "ratingSecurity": 7.0,
+      "ratingSupport": 7.0,
+      "ratingUX": 7.5,
+      "yearEstablished": 2020,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://helabet.com",
+      "exitLink": "https://helabet.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $130",
+      "welcomeBonusAmount": "$130",
+      "bonusDetails": "100% sports welcome bonus up to $130 for new members. African-focused sportsbook with crypto support.",
+      "wageringRequirement": "5x at odds 1.40+",
+      "minDeposit": "$1 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "USDT"
+      ],
+      "cryptoCount": "3+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "1-12 hours",
+      "provablyFair": false,
+      "kycRequired": "Required",
+      "vpnAllowed": false,
+      "mobileApp": true,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 30,
+      "gamesCount": "1,500+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "African market focus with local payment options",
+        "Mobile app",
+        "$1 minimum deposit",
+        "30+ sports markets"
+      ],
+      "cons": [
+        "Very limited crypto selection (3 coins)",
+        "No live streaming",
+        "Smaller game library",
+        "Limited global recognition"
+      ],
+      "description": "Helabet is a sports-focused platform with an African market emphasis, offering 30+ sports and a $1 minimum deposit with basic crypto support.",
+      "shortDescription": "Sports-focused sportsbook with African market emphasis and $1 minimum deposit.",
+      "baseColour": "#006600",
+      "textColour": "#ffffff",
+      "tags": [
+        "sports-betting",
+        "african-market",
+        "low-minimum"
+      ]
+    },
+    {
+      "id": "duel",
+      "name": "Duel",
+      "type": [
+        "casino",
+        "sports"
+      ],
+      "overallRating": 7.6,
+      "ratingBonus": 7.5,
+      "ratingGames": 7.8,
+      "ratingPayment": 7.8,
+      "ratingSecurity": 7.3,
+      "ratingSupport": 7.3,
+      "ratingUX": 8.0,
+      "yearEstablished": 2022,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://duel.win",
+      "exitLink": "https://duel.win/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $500",
+      "welcomeBonusAmount": "$500",
+      "bonusDetails": "100% first deposit match up to $500. Zero-edge original games and rakeback for regular players.",
+      "wageringRequirement": "30x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "USDT",
+        "BNB"
+      ],
+      "cryptoCount": "5+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 1 hour",
+      "provablyFair": true,
+      "kycRequired": "Not required",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": true,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 20,
+      "gamesCount": "2,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Duel Originals"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "Zero-edge original games unique feature",
+        "No KYC required",
+        "Provably fair games",
+        "Lower 30x wagering"
+      ],
+      "cons": [
+        "New platform with limited track record",
+        "Small crypto selection",
+        "No mobile app"
+      ],
+      "description": "Duel is a crypto casino and sportsbook featuring unique zero-edge original games, no KYC, and a low 30x wagering welcome bonus.",
+      "shortDescription": "Crypto casino with zero-edge originals, no KYC, and low 30x wagering.",
+      "baseColour": "#0f0f1a",
+      "textColour": "#00ff88",
+      "tags": [
+        "zero-edge",
+        "no-kyc",
+        "provably-fair",
+        "low-wagering"
+      ]
+    },
+    {
+      "id": "thrill",
+      "name": "Thrill",
+      "type": [
+        "casino"
+      ],
+      "overallRating": 7.4,
+      "ratingBonus": 7.2,
+      "ratingGames": 7.5,
+      "ratingPayment": 7.5,
+      "ratingSecurity": 7.2,
+      "ratingSupport": 7.2,
+      "ratingUX": 7.8,
+      "yearEstablished": 2022,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://thrillcasino.com",
+      "exitLink": "https://thrillcasino.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "150% up to $500 + 100 Free Spins",
+      "welcomeBonusAmount": "$500",
+      "bonusDetails": "150% up to $500 plus 100 free spins on first deposit.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "USDT",
+        "SOL"
+      ],
+      "cryptoCount": "4+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 2 hours",
+      "provablyFair": false,
+      "kycRequired": "Optional",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": false,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 0,
+      "gamesCount": "2,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "150% welcome bonus",
+        "Modern interface",
+        "Fast withdrawals"
+      ],
+      "cons": [
+        "New platform",
+        "Limited crypto selection",
+        "No sportsbook"
+      ],
+      "description": "Thrill is a modern crypto casino offering 2,000+ games with a 150% welcome bonus and 100 free spins.",
+      "shortDescription": "Modern crypto casino with 150% welcome bonus and 100 free spins.",
+      "baseColour": "#1a0a3e",
+      "textColour": "#ff4d6d",
+      "tags": [
+        "casino",
+        "modern",
+        "slots"
+      ]
+    },
+    {
+      "id": "menace",
+      "name": "Menace",
+      "type": [
+        "casino"
+      ],
+      "overallRating": 7.3,
+      "ratingBonus": 7.3,
+      "ratingGames": 7.3,
+      "ratingPayment": 7.5,
+      "ratingSecurity": 7.0,
+      "ratingSupport": 7.0,
+      "ratingUX": 7.5,
+      "yearEstablished": 2023,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://menacecasino.com",
+      "exitLink": "https://menacecasino.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $500 + 50 Free Spins",
+      "welcomeBonusAmount": "$500",
+      "bonusDetails": "100% first deposit bonus up to $500 plus 50 free spins.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "USDT"
+      ],
+      "cryptoCount": "3+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 2 hours",
+      "provablyFair": false,
+      "kycRequired": "Optional",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": false,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 0,
+      "gamesCount": "1,500+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "100% welcome bonus",
+        "Fast withdrawals",
+        "Clean design"
+      ],
+      "cons": [
+        "Very new platform (2023)",
+        "Very limited crypto selection",
+        "No sportsbook",
+        "Limited track record"
+      ],
+      "description": "Menace is a new crypto casino launched in 2023 offering 1,500+ games with a 100% welcome bonus.",
+      "shortDescription": "New crypto casino with 1,500+ games and a 100% welcome bonus.",
+      "baseColour": "#0f0f0f",
+      "textColour": "#ff0055",
+      "tags": [
+        "casino",
+        "new-platform"
+      ]
+    },
+    {
+      "id": "gambulls",
+      "name": "Gambulls",
+      "type": [
+        "casino"
+      ],
+      "overallRating": 7.5,
+      "ratingBonus": 7.5,
+      "ratingGames": 7.5,
+      "ratingPayment": 7.8,
+      "ratingSecurity": 7.2,
+      "ratingSupport": 7.3,
+      "ratingUX": 7.8,
+      "yearEstablished": 2022,
+      "license": "Curacao eGaming",
+      "headquarters": "Curacao",
+      "website": "https://gambulls.com",
+      "exitLink": "https://gambulls.com/?ref=NEWBONUS",
+      "promoCode": "NEWBONUS",
+      "welcomeBonus": "100% up to $500 + 100 Free Spins",
+      "welcomeBonusAmount": "$500",
+      "bonusDetails": "100% first deposit up to $500 plus 100 free spins on registration.",
+      "wageringRequirement": "40x bonus",
+      "minDeposit": "$10 equivalent",
+      "cryptosAccepted": [
+        "BTC",
+        "ETH",
+        "USDT",
+        "SOL"
+      ],
+      "cryptoCount": "4+",
+      "depositSpeed": "Instant",
+      "withdrawalSpeed": "Under 2 hours",
+      "provablyFair": false,
+      "kycRequired": "Optional",
+      "vpnAllowed": false,
+      "mobileApp": false,
+      "liveBetting": false,
+      "liveStreaming": false,
+      "liveCasino": true,
+      "sportsCovered": 0,
+      "gamesCount": "2,000+",
+      "gameProviders": [
+        "Pragmatic Play",
+        "Evolution",
+        "Hacksaw Gaming"
+      ],
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "100% welcome bonus + 100 FS",
+        "Decent game selection",
+        "Fast payouts"
+      ],
+      "cons": [
+        "Limited brand recognition",
+        "Small crypto selection",
+        "No sportsbook"
+      ],
+      "description": "Gambulls is a crypto casino with 2,000+ games and a 100% up to $500 + 100 free spins welcome offer.",
+      "shortDescription": "Crypto casino with 2,000+ games and 100% up to $500 + 100 free spins.",
+      "baseColour": "#8b0000",
+      "textColour": "#ffd700",
+      "tags": [
+        "casino",
+        "slots"
+      ]
+    }
+  ]
+}
