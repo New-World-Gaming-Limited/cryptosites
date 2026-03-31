@@ -1,0 +1,25 @@
+{
+  "colors": {
+    "primary": "#1a1d24",
+    "secondary": "#14161b",
+    "accent": "#009e80",
+    "text": "#1a1d24",
+    "text_muted": "#8b8f99",
+    "background": "#f8f9fa",
+    "card_bg": "#ffffff",
+    "success": "#009e80",
+    "warning": "#e5a020",
+    "error": "#dc3545"
+  },
+  "fonts": {
+    "heading": "Cabinet Grotesk, system-ui, sans-serif",
+    "body": "Satoshi, system-ui, sans-serif"
+  },
+  "border_radius": "8px",
+  "logo": {
+    "light": "assets/logo-light.svg",
+    "dark": "assets/logo-dark.svg",
+    "favicon": "favicon.svg"
+  },
+  "flag": "🌐"
+}
