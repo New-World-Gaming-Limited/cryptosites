@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Deposit Fee Calculator 2026 | CryptoBets</title>
+<meta name="description" content="Calculate network fees for crypto casino deposits. Compare BTC, ETH, LTC, SOL, DOGE, and USDT transaction costs by deposit size.">
+<link rel="canonical" href="https://cryptobets.com/tools/fee-calculator">
+<meta property="og:title" content="Crypto Deposit Fee Calculator 2026 | CryptoBets">
+<meta property="og:description" content="Calculate network fees for crypto casino deposits. Compare BTC, ETH, LTC, SOL, DOGE, and USDT transaction costs by deposit size.">
+<meta property="og:url" content="https://cryptobets.com/tools/fee-calculator">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CryptoBets.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Crypto Deposit Fee Calculator 2026 | CryptoBets">
+<meta name="twitter:description" content="Calculate network fees for crypto casino deposits. Compare BTC, ETH, LTC, SOL, DOGE, and USDT transaction costs by deposit size.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400;500;700;800&f[]=satoshi@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/base.css">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://cryptobets.com/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": null}, {"@type": "ListItem", "position": 3, "name": "Crypto Fee Calculator"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "CryptoBets.com", "url": "https://cryptobets.com", "logo": "https://cryptobets.com/favicon.svg", "contactPoint": {"@type": "ContactPoint", "email": "help@cryptobets.com", "contactType": "customer service"}, "address": {"@type": "PostalAddress", "streetAddress": "38 Wale St", "addressLocality": "Cape Town", "postalCode": "8000", "addressCountry": "ZA"}}</script>
+
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CRYPTOBETS"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-CRYPTOBETS');</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who receives the network fee?","acceptedAnswer":{"@type":"Answer","text":"The network fee goes to miners (Bitcoin, Litecoin) or validators (Ethereum, Solana, Tron) who process your transaction. Neither CryptoBets.com nor the casino receives the network fee."}},{"@type":"Question","name":"Do casinos charge additional deposit fees?","acceptedAnswer":{"@type":"Answer","text":"Most crypto casinos do not charge deposit fees on top of the network fee. The network fee is the only cost for most deposits. Some casinos may charge a small processing fee for certain methods; check the cashier before depositing."}},{"@type":"Question","name":"Why does Ethereum have high fees sometimes?","acceptedAnswer":{"@type":"Answer","text":"Ethereum fees (gas) rise and fall with network demand. During periods of heavy usage, fees can spike above $50 per transaction. During quiet periods, fees can drop below $1. Check a gas tracker like ethgasstation.info before sending during suspected busy periods."}},{"@type":"Question","name":"Is USDT on Tron the same as USDT on Ethereum?","acceptedAnswer":{"@type":"Answer","text":"Both represent $1 per token but run on different blockchains. USDT on Tron (TRC-20) has fees under $1. USDT on Ethereum (ERC-20) has higher fees. Always check which network the casino's deposit address uses, as sending to the wrong network can result in lost funds."}},{"@type":"Question","name":"What is the cheapest crypto for casino deposits?","acceptedAnswer":{"@type":"Answer","text":"Solana (SOL) has the lowest transaction fees, typically under $0.001. Litecoin and USDT on Tron are close behind at around $0.01 and under $1 respectively. Bitcoin and Ethereum are the most expensive for small deposits."}}]}</script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="/" class="nav-logo" aria-label="CryptoBets Home"><svg class="logo-svg" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g class="logo-mark">
+    <path d="M24 4l17.32 10v20L24 44 6.68 34V14z" fill="var(--color-surface-elevated)" stroke="var(--color-primary)" stroke-width="2"/>
+    <path d="M24 8l13.86 8v16L24 40l-13.86-8V16z" fill="var(--color-primary)" opacity="0.12"/>
+    <g transform="translate(24, 24)">
+      <text x="-10" y="6" font-family="system-ui, sans-serif" font-weight="800" font-size="18" fill="var(--color-primary)">CB</text>
+    </g>
+  </g>
+  <text x="54" y="32" font-family="'Cabinet Grotesk', system-ui, sans-serif" font-weight="800" font-size="24" fill="currentColor">Crypto<tspan fill="var(--color-primary)">Bets</tspan></text>
+</svg></a>
+    <div class="nav-menu" id="navMenu">
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">Betting <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Categories</h4>
+            <a href="/crypto-casinos">Crypto Casinos</a>
+            <a href="/crypto-sports-betting">Sports Betting</a>
+            <a href="/crypto-poker">Crypto Poker</a>
+            <a href="/crypto-lottery">Crypto Lottery</a>
+          </div>
+          <div class="mega-col">
+            <h4>By Cryptocurrency</h4>
+            <a href="/coin/bitcoin">Bitcoin Casinos</a>
+            <a href="/coin/ethereum">Ethereum Casinos</a>
+            <a href="/coin/usdt">USDT Casinos</a>
+            <a href="/coin/solana">Solana Casinos</a>
+          </div>
+          <div class="mega-col">
+            <h4>By Game Type</h4>
+            <a href="/games/crypto-slots">Crypto Slots</a>
+            <a href="/games/crash-games">Crash Games</a>
+            <a href="/games/live-dealer">Live Dealer</a>
+            <a href="/games/crypto-dice">Crypto Dice</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">Tools <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Platforms</h4>
+            <a href="/crypto-exchanges">Exchanges</a>
+            <a href="/crypto-wallets">Wallets</a>
+          </div>
+          <div class="mega-col">
+            <h4>Compare</h4>
+            <a href="/bonus-browser">Bonus Browser</a>
+            <a href="/compare">Compare Side-by-Side</a>
+            <a href="/withdrawal-tracker">Withdrawal Tracker</a>
+          </div>
+          <div class="mega-col">
+            <h4>Calculators</h4>
+            <a href="/bonus-calculator">Bonus Calculator</a>
+            <a href="/crypto-converter">Crypto Converter</a>
+            <a href="/quiz">Casino Finder Quiz</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">Reviews <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Latest Reviews</h4>
+            <a href="/review-stake">Stake.com</a><a href="/review-binance">Binance</a><a href="/review-ledger">Ledger</a><a href="/review-bc-game">BC.Game</a><a href="/review-coinbase">Coinbase</a>
+          </div>
+          <div class="mega-col">
+            <h4>Browse</h4>
+            <a href="/crypto-casinos">Crypto Casinos</a><a href="/crypto-sports-betting">Crypto Sports Betting</a><a href="/crypto-poker">Crypto Poker</a><a href="/crypto-exchanges">Crypto Exchanges</a><a href="/crypto-wallets">Crypto Wallets</a><a href="/crypto-lottery">Crypto Lottery</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">Promos <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Featured Promo Codes</h4>
+            <a href="/promo-stake">Stake.com Code</a><a href="/promo-binance">Binance Code</a><a href="/promo-ledger">Ledger Code</a>
+            <a href="/bonus-browser">All Promo Codes</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">Guides <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Popular Guides</h4>
+            <a href="/guide/provably-fair-guide">Complete Guide to Provably Fair Crypto Gambling 2026</a><a href="/guide/crypto-wallet-security-guide">Crypto Wallet Security Guide for Gamblers: Protect Your Winnings in 2026</a><a href="/guide/minimize-gas-fees-crypto-gambling">How to Minimize Gas Fees When Gambling with Crypto in 2026</a>
+            <a href="/glossary">Glossary</a>
+          </div>
+          <div class="mega-col">
+            <h4>Deposit Tutorials</h4>
+            <a href="/tutorial/deposit-bitcoin">How to Deposit Bitcoin</a>
+            <a href="/tutorial/deposit-ethereum">How to Deposit Ethereum</a>
+            <a href="/tutorial/deposit-usdt">How to Deposit USDT</a>
+          </div>
+          <div class="mega-col">
+            <h4>Resources</h4>
+            <a href="/crypto-gambling-statistics">Crypto Gambling Stats</a>
+            <a href="/payments/">Payment Methods</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">News <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Blog</h4>
+            <a href="/blog">Latest Articles</a>
+            <a href="/news">Brand News</a>
+          </div>
+          <div class="mega-col">
+            <h4>Research</h4>
+            <a href="/operators">Operator Dossiers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-actions">
+      <button data-theme-toggle aria-label="Toggle theme" class="btn-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></button>
+      <button class="btn-icon nav-hamburger" id="navToggle" aria-label="Open menu"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+    </div>
+  </nav>
+</header>
+
+<main>
+<div class="container page-content">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="bc-sep">/</span><span aria-current="page">Tools</span><span class="bc-sep">/</span><span aria-current="page">Crypto Fee Calculator</span></nav>
+
+  <article>
+    <h1><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12V8H6a2 2 0 010-4h12v4"/><path d="M4 6v12a2 2 0 002 2h14V12"/><circle cx="18" cy="14" r="1" fill="currentColor"/></svg> Crypto Deposit Fee Calculator</h1>
+    <p class="page-intro">See exactly how much each cryptocurrency costs to deposit at a crypto casino. Enter your deposit amount and compare network fees across all major coins.</p>
+
+    <div class="tool-card" style="background:var(--color-surface-elevated);border:1px solid var(--color-border);border-radius:12px;padding:32px;margin:24px 0;">
+      <h2>Calculate Deposit Fees</h2>
+
+      <div class="form-group" style="margin-bottom:20px;">
+        <label for="depositAmount" style="display:block;font-weight:600;margin-bottom:8px;">Deposit Amount (USD)</label>
+        <div style="position:relative;">
+          <span style="position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--color-text-secondary);font-weight:700;">$</span>
+          <input type="number" id="depositAmount" value="100" min="1" max="100000" step="1"
+            oninput="calculateFees()"
+            style="width:100%;padding:12px 14px 12px 28px;border-radius:8px;border:1px solid var(--color-border);background:var(--color-surface);color:var(--color-text);font-size:1.1rem;font-weight:700;box-sizing:border-box;">
+        </div>
+        <div style="display:flex;gap:8px;margin-top:8px;">
+          <button onclick="setAmount(50)" class="btn btn-ghost btn-sm">$50</button>
+          <button onclick="setAmount(100)" class="btn btn-ghost btn-sm">$100</button>
+          <button onclick="setAmount(500)" class="btn btn-ghost btn-sm">$500</button>
+          <button onclick="setAmount(1000)" class="btn btn-ghost btn-sm">$1,000</button>
+        </div>
+      </div>
+
+      <div id="feeResults" style="margin-top:24px;"></div>
+
+      <div id="recommendation" style="margin-top:24px;padding:16px;border-radius:8px;background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.3);display:none;">
+        <h3 style="margin:0 0 8px 0;color:var(--color-primary);"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Recommendation</h3>
+        <p id="recommendationText" style="margin:0;"></p>
+      </div>
+    </div>
+
+    <section>
+      <h2>Understanding Crypto Network Fees</h2>
+      <p>Every cryptocurrency transaction requires a network fee paid to validators or miners who process and confirm your transaction. These fees are separate from any fees the casino charges (most charge nothing). The fee goes to the blockchain network, not to CryptoBets.com or the casino.</p>
+      <p>Fee amounts fluctuate based on network demand. The estimates shown are based on average conditions in early 2026 and may differ from live network rates. For real-time fee data, check a blockchain explorer before sending large amounts.</p>
+
+      <h2>Fee Comparison by Cryptocurrency</h2>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Cryptocurrency</th>
+              <th>Typical Fee</th>
+              <th>Confirmation Time</th>
+              <th>Best For</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Bitcoin (BTC)</strong></td>
+              <td>$2-$5 (variable)</td>
+              <td>10-30 min (1-3 blocks)</td>
+              <td>Large deposits ($500+)</td>
+            </tr>
+            <tr>
+              <td><strong>Ethereum (ETH)</strong></td>
+              <td>$1-$3 average</td>
+              <td>1-5 minutes</td>
+              <td>Medium deposits ($100+)</td>
+            </tr>
+            <tr>
+              <td><strong>Litecoin (LTC)</strong></td>
+              <td>~$0.01</td>
+              <td>2.5-8 minutes</td>
+              <td>Any deposit size</td>
+            </tr>
+            <tr>
+              <td><strong>Solana (SOL)</strong></td>
+              <td>&lt;$0.001</td>
+              <td>Under 1 second</td>
+              <td>Any deposit size</td>
+            </tr>
+            <tr>
+              <td><strong>Dogecoin (DOGE)</strong></td>
+              <td>~$0.01</td>
+              <td>1-6 minutes</td>
+              <td>Small deposits, micro-bets</td>
+            </tr>
+            <tr>
+              <td><strong>USDT (ERC-20)</strong></td>
+              <td>$1-$3 average</td>
+              <td>1-5 minutes</td>
+              <td>Stable value needed</td>
+            </tr>
+            <tr>
+              <td><strong>USDT (TRC-20)</strong></td>
+              <td>~$1</td>
+              <td>~1 minute</td>
+              <td>Best stable-value option</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Why Fees Matter for Gambling</h2>
+      <p>A $3 Bitcoin fee on a $1,000 deposit is 0.3% and easily acceptable. The same $3 fee on a $20 deposit is 15%, which meaningfully reduces your effective bankroll before you place a single bet. For small deposits, always use a low-fee network.</p>
+      <p>Withdrawal fees follow the same logic. If you win $50 and pay $3 to withdraw it in Bitcoin, you keep $47 (a 6% exit cost). Using Litecoin or Solana for that same withdrawal costs under $0.10, keeping your winnings intact.</p>
+      <p>The practical rule: for deposits under $100, use Litecoin, Solana, or USDT on Tron. For deposits above $200, Bitcoin and Ethereum are fine. For deposits where price stability matters, use USDT on any network.</p>
+    </section>
+
+    <section>
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-accordion"><details class="faq-item">
+  <summary>Who receives the network fee? <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+  <div class="faq-answer"><p>The network fee goes to miners (Bitcoin, Litecoin) or validators (Ethereum, Solana, Tron) who process your transaction. Neither CryptoBets.com nor the casino receives the network fee.</p></div>
+</details><details class="faq-item">
+  <summary>Do casinos charge additional deposit fees? <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+  <div class="faq-answer"><p>Most crypto casinos do not charge deposit fees on top of the network fee. The network fee is the only cost for most deposits. Some casinos may charge a small processing fee for certain methods; check the cashier before depositing.</p></div>
+</details><details class="faq-item">
+  <summary>Why does Ethereum have high fees sometimes? <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+  <div class="faq-answer"><p>Ethereum fees (gas) rise and fall with network demand. During periods of heavy usage, fees can spike above $50 per transaction. During quiet periods, fees can drop below $1. Check a gas tracker like ethgasstation.info before sending during suspected busy periods.</p></div>
+</details><details class="faq-item">
+  <summary>Is USDT on Tron the same as USDT on Ethereum? <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+  <div class="faq-answer"><p>Both represent $1 per token but run on different blockchains. USDT on Tron (TRC-20) has fees under $1. USDT on Ethereum (ERC-20) has higher fees. Always check which network the casino&#x27;s deposit address uses, as sending to the wrong network can result in lost funds.</p></div>
+</details><details class="faq-item">
+  <summary>What is the cheapest crypto for casino deposits? <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+  <div class="faq-answer"><p>Solana (SOL) has the lowest transaction fees, typically under $0.001. Litecoin and USDT on Tron are close behind at around $0.01 and under $1 respectively. Bitcoin and Ethereum are the most expensive for small deposits.</p></div>
+</details></div>
+    </section>
+  </article>
+</div>
+</main>
+
+<div class="affiliate-disclosure-bar">
+  <div class="container">
+    <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> <strong>Affiliate Disclosure:</strong> CryptoBets.com earns commissions from qualifying signups through affiliate links. This does not influence our ratings or rankings, which are based on independent testing. <a href="/about">Learn more</a>.</p>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <svg class="logo-svg logo-small" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M24 4l17.32 10v20L24 44 6.68 34V14z" fill="var(--color-surface-elevated)" stroke="var(--color-primary)" stroke-width="2"/>
+  <path d="M24 8l13.86 8v16L24 40l-13.86-8V16z" fill="var(--color-primary)" opacity="0.12"/>
+  <g transform="translate(24, 24)">
+    <text x="-10" y="6" font-family="system-ui, sans-serif" font-weight="800" font-size="18" fill="var(--color-primary)">CB</text>
+  </g>
+</svg>
+        <p>Independent crypto gambling reviews backed by real deposits, real withdrawals, and real testing. Every platform rated on a transparent 10-point scale.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="/crypto-casinos">Crypto Casinos</a></li><li><a href="/crypto-sports-betting">Crypto Sports Betting</a></li><li><a href="/crypto-poker">Crypto Poker</a></li><li><a href="/crypto-exchanges">Crypto Exchanges</a></li><li><a href="/crypto-wallets">Crypto Wallets</a></li><li><a href="/crypto-lottery">Crypto Lottery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Top Reviews</h4>
+        <ul>
+          <li><a href="/review-stake">Stake.com Review</a></li><li><a href="/review-binance">Binance Review</a></li><li><a href="/review-ledger">Ledger Review</a></li>
+          <li><a href="/crypto-casinos">All Reviews</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="/guide/provably-fair-guide">Complete Guide to Provably Fair Crypto Gambling 2026</a></li><li><a href="/guide/crypto-wallet-security-guide">Crypto Wallet Security Guide for Gamblers: Protect Your Winnings in 2026</a></li><li><a href="/guide/minimize-gas-fees-crypto-gambling">How to Minimize Gas Fees When Gambling with Crypto in 2026</a></li>
+          <li><a href="/blog">All Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/team">Team</a></li>
+          <li><a href="/how-we-rate">How We Rate</a></li>
+          <li><a href="/operators">Operator Dossiers</a></li>
+          <li><a href="/editorial-policy">Editorial Policy</a></li>
+          <li><a href="/responsible-gambling">Responsible Gambling</a></li>
+          <li><a href="mailto:help@cryptobets.com">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-responsible">
+      <div class="rg-badge">
+        <span class="age-badge">18+</span>
+        <div>
+          <strong>Gambling can be addictive. Play responsibly.</strong>
+          <p>Cryptocurrency investments and gambling involve significant risk. Never wager more than you can afford to lose.</p>
+          <p class="rg-helplines">
+            <strong>Help:</strong>
+            US: 1-800-522-4700 (NCPG) |
+            UK: 0808-8020-133 (GamCare) |
+            AU: 1800-858-858 |
+            CA: 1-866-531-2600 |
+            NZ: 0800-654-655
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-last-updated" style="font-size:0.75rem;color:var(--color-text-secondary);margin-bottom:4px;">Last updated: April 2, 2026</p>
+      <p>&copy; 2026 CryptoBets.com. All rights reserved. NWG PTY Limited, 38 Wale St, Cape Town 8000.</p>
+      <div class="footer-legal">
+        <a href="/about">About</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/responsible-gambling">Responsible Gambling</a>
+        <a href="/editorial-policy">Affiliate Disclosure</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/app.js" defer></script>
+</body>
+</html>
+
+<script>
+const FEES = {
+  BTC:     { name: "Bitcoin (BTC)",    minFee: 2.0, maxFee: 5.0,  avgFee: 3.0,   time: "10-30 min",     symbol: "BTC",  priceUSD: 65000 },
+  ETH:     { name: "Ethereum (ETH)",   minFee: 1.0, maxFee: 3.0,  avgFee: 2.0,   time: "1-5 min",       symbol: "ETH",  priceUSD: 3200  },
+  LTC:     { name: "Litecoin (LTC)",   minFee: 0.01,maxFee: 0.05, avgFee: 0.02,  time: "2.5-8 min",     symbol: "LTC",  priceUSD: 80    },
+  SOL:     { name: "Solana (SOL)",     minFee: 0.0005,maxFee:0.002,avgFee:0.001, time: "< 1 sec",        symbol: "SOL",  priceUSD: 160   },
+  DOGE:    { name: "Dogecoin (DOGE)",  minFee: 0.01,maxFee: 0.03, avgFee: 0.015, time: "1-6 min",        symbol: "DOGE", priceUSD: 0.17  },
+  USDT_ETH:{ name: "USDT (ERC-20)",   minFee: 1.0, maxFee: 3.0,  avgFee: 2.0,   time: "1-5 min",       symbol: "USDT", priceUSD: 1     },
+  USDT_TRX:{ name: "USDT (TRC-20)",   minFee: 0.5, maxFee: 1.5,  avgFee: 1.0,   time: "~1 min",        symbol: "USDT", priceUSD: 1     },
+};
+
+function setAmount(val) {
+  document.getElementById('depositAmount').value = val;
+  calculateFees();
+}
+
+function calculateFees() {
+  const amount = parseFloat(document.getElementById('depositAmount').value) || 0;
+  if (amount <= 0) return;
+
+  const resultsEl = document.getElementById('feeResults');
+  const recEl = document.getElementById('recommendation');
+  const recTextEl = document.getElementById('recommendationText');
+
+  let html = '<div style="display:grid;gap:12px;">';
+  let bestCoin = null;
+  let bestPct = Infinity;
+
+  for (const [key, coin] of Object.entries(FEES)) {
+    const fee = coin.avgFee;
+    const pct = (fee / amount) * 100;
+    const amountInCoin = (amount / coin.priceUSD).toFixed(8);
+    const feeInCoin = (fee / coin.priceUSD).toFixed(8);
+    const netAmount = amount - fee;
+
+    const pctColor = pct < 0.5 ? '#10b981' : pct < 2 ? '#f59e0b' : '#ef4444';
+    const barWidth = Math.min(100, pct * 10);
+
+    html += `
+<div style="background:var(--color-surface);border:1px solid var(--color-border);border-radius:10px;padding:16px;">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+    <strong style="font-size:1rem;">${coin.name}</strong>
+    <span style="font-weight:700;color:${pctColor};">${pct.toFixed(2)}% of deposit</span>
+  </div>
+  <div style="height:6px;background:var(--color-border);border-radius:3px;margin-bottom:12px;">
+    <div style="height:100%;width:${barWidth}%;background:${pctColor};border-radius:3px;transition:width 0.3s;"></div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;font-size:0.85rem;color:var(--color-text-secondary);">
+    <div><strong>Network Fee</strong><br><span style="color:var(--color-text);">~$${fee.toFixed(2)}</span></div>
+    <div><strong>You Receive</strong><br><span style="color:var(--color-text);">$${netAmount.toFixed(2)}</span></div>
+    <div><strong>Confirm Time</strong><br><span style="color:var(--color-text);">${coin.time}</span></div>
+  </div>
+</div>`;
+
+    if (pct < bestPct) {
+      bestPct = pct;
+      bestCoin = coin;
+    }
+  }
+
+  html += '</div>';
+  resultsEl.innerHTML = html;
+
+  if (bestCoin) {
+    let rec = '';
+    if (amount < 50) {
+      rec = `For deposits under $50, Solana (SOL) or Litecoin (LTC) are the best choices. Their fees under $0.05 are negligible compared to your deposit. Bitcoin and Ethereum fees would consume an unacceptable percentage of a small deposit.`;
+    } else if (amount < 200) {
+      rec = `For a $${amount} deposit, ${bestCoin.name} has the lowest fee impact at about ${bestPct.toFixed(2)}% of your deposit. Litecoin and USDT on Tron are also excellent options in this range.`;
+    } else if (amount < 1000) {
+      rec = `At $${amount}, most cryptocurrencies are acceptable in terms of fee percentage. ${bestCoin.name} is most efficient at ${bestPct.toFixed(2)}%. If you prefer price stability, USDT on Tron offers similar efficiency with no price volatility.`;
+    } else {
+      rec = `For a $${amount} deposit, Bitcoin and Ethereum fees become negligible as a percentage. ${bestCoin.name} is the most efficient, but prioritize whichever crypto you already hold to avoid conversion fees on exchanges.`;
+    }
+    recTextEl.textContent = rec;
+    recEl.style.display = 'block';
+  }
+}
+
+window.addEventListener('load', calculateFees);
+</script>

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Provably Fair Checker Tool 2026 | CryptoBets</title>
+<meta name="description" content="Verify crypto casino game outcomes yourself. Enter server seed, client seed, and nonce to check SHA-256 hash results.">
+<link rel="canonical" href="https://cryptobets.com/tools/provably-fair-checker">
+<meta property="og:title" content="Provably Fair Checker Tool 2026 | CryptoBets">
+<meta property="og:description" content="Verify crypto casino game outcomes yourself. Enter server seed, client seed, and nonce to check SHA-256 hash results.">
+<meta property="og:url" content="https://cryptobets.com/tools/provably-fair-checker">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CryptoBets.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Provably Fair Checker Tool 2026 | CryptoBets">
+<meta name="twitter:description" content="Verify crypto casino game outcomes yourself. Enter server seed, client seed, and nonce to check SHA-256 hash results.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400;500;700;800&f[]=satoshi@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/base.css">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://cryptobets.com/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": null}, {"@type": "ListItem", "position": 3, "name": "Provably Fair Checker"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "CryptoBets.com", "url": "https://cryptobets.com", "logo": "https://cryptobets.com/favicon.svg", "contactPoint": {"@type": "ContactPoint", "email": "help@cryptobets.com", "contactType": "customer service"}, "address": {"@type": "PostalAddress", "streetAddress": "38 Wale St", "addressLocality": "Cape Town", "postalCode": "8000", "addressCountry": "ZA"}}</script>
+
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CRYPTOBETS"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-CRYPTOBETS');</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does this tool share my seeds with anyone?","acceptedAnswer":{"@type":"Answer","text":"No. This tool runs entirely in your browser using the Web Crypto API. No data is sent to CryptoBets.com or any other server. You can verify this by inspecting the page source."}},{"@type":"Question","name":"What is a nonce in provably fair gambling?","acceptedAnswer":{"@type":"Answer","text":"A nonce is a sequential counter that increments with each bet. It ensures that even with the same server and client seeds, every bet produces a different result. Starting nonce is typically 0 or 1 and increases by 1 per bet."}},{"@type":"Question","name":"Can I change my client seed?","acceptedAnswer":{"@type":"Answer","text":"Yes. Most provably fair platforms let you change your client seed at any time before placing a bet. Using a custom seed you chose yourself means the casino had no control over that input."}},{"@type":"Question","name":"What if the hashes do not match?","acceptedAnswer":{"@type":"Answer","text":"If the revealed server seed does not hash to what was shown before your bet, the casino changed its seed after you bet. This would be a provably fair violation. Document the mismatch and contact the platform's support immediately."}},{"@type":"Question","name":"Do slot machines use provably fair?","acceptedAnswer":{"@type":"Answer","text":"No. Third-party slot machines (Pragmatic Play, NetEnt, etc.) use certified RNG audited by independent labs, not provably fair algorithms. Provably fair applies only to casino-original games."}}]}</script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="/" class="nav-logo" aria-label="CryptoBets Home"><svg class="logo-svg" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g class="logo-mark">
+    <path d="M24 4l17.32 10v20L24 44 6.68 34V14z" fill="var(--color-surface-elevated)" stroke="var(--color-primary)" stroke-width="2"/>
+    <path d="M24 8l13.86 8v16L24 40l-13.86-8V16z" fill="var(--color-primary)" opacity="0.12"/>
+    <g transform="translate(24, 24)">
+      <text x="-10" y="6" font-family="system-ui, sans-serif" font-weight="800" font-size="18" fill="var(--color-primary)">CB</text>
+    </g>
+  </g>
+  <text x="54" y="32" font-family="'Cabinet Grotesk', system-ui, sans-serif" font-weight="800" font-size="24" fill="currentColor">Crypto<tspan fill="var(--color-primary)">Bets</tspan></text>
+</svg></a>
+    <div class="nav-menu" id="navMenu">
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">Betting <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Categories</h4>
+            <a href="/crypto-casinos">Crypto Casinos</a>
+            <a href="/crypto-sports-betting">Sports Betting</a>
+            <a href="/crypto-poker">Crypto Poker</a>
+            <a href="/crypto-lottery">Crypto Lottery</a>
+          </div>
+          <div class="mega-col">
+            <h4>By Cryptocurrency</h4>
+            <a href="/coin/bitcoin">Bitcoin Casinos</a>
+            <a href="/coin/ethereum">Ethereum Casinos</a>
+            <a href="/coin/usdt">USDT Casinos</a>
+            <a href="/coin/solana">Solana Casinos</a>
+          </div>
+          <div class="mega-col">
+            <h4>By Game Type</h4>
+            <a href="/games/crypto-slots">Crypto Slots</a>
+            <a href="/games/crash-games">Crash Games</a>
+            <a href="/games/live-dealer">Live Dealer</a>
+            <a href="/games/crypto-dice">Crypto Dice</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">Tools <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Platforms</h4>
+            <a href="/crypto-exchanges">Exchanges</a>
+            <a href="/crypto-wallets">Wallets</a>
+          </div>
+          <div class="mega-col">
+            <h4>Compare</h4>
+            <a href="/bonus-browser">Bonus Browser</a>
+            <a href="/compare">Compare Side-by-Side</a>
+            <a href="/withdrawal-tracker">Withdrawal Tracker</a>
+          </div>
+          <div class="mega-col">
+            <h4>Calculators</h4>
+            <a href="/bonus-calculator">Bonus Calculator</a>
+            <a href="/crypto-converter">Crypto Converter</a>
+            <a href="/quiz">Casino Finder Quiz</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">Reviews <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Latest Reviews</h4>
+            <a href="/review-stake">Stake.com</a><a href="/review-binance">Binance</a><a href="/review-ledger">Ledger</a><a href="/review-bc-game">BC.Game</a><a href="/review-coinbase">Coinbase</a>
+          </div>
+          <div class="mega-col">
+            <h4>Browse</h4>
+            <a href="/crypto-casinos">Crypto Casinos</a><a href="/crypto-sports-betting">Crypto Sports Betting</a><a href="/crypto-poker">Crypto Poker</a><a href="/crypto-exchanges">Crypto Exchanges</a><a href="/crypto-wallets">Crypto Wallets</a><a href="/crypto-lottery">Crypto Lottery</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">Promos <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Featured Promo Codes</h4>
+            <a href="/promo-stake">Stake.com Code</a><a href="/promo-binance">Binance Code</a><a href="/promo-ledger">Ledger Code</a>
+            <a href="/bonus-browser">All Promo Codes</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">Guides <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Popular Guides</h4>
+            <a href="/guide/provably-fair-guide">Complete Guide to Provably Fair Crypto Gambling 2026</a><a href="/guide/crypto-wallet-security-guide">Crypto Wallet Security Guide for Gamblers: Protect Your Winnings in 2026</a><a href="/guide/minimize-gas-fees-crypto-gambling">How to Minimize Gas Fees When Gambling with Crypto in 2026</a>
+            <a href="/glossary">Glossary</a>
+          </div>
+          <div class="mega-col">
+            <h4>Deposit Tutorials</h4>
+            <a href="/tutorial/deposit-bitcoin">How to Deposit Bitcoin</a>
+            <a href="/tutorial/deposit-ethereum">How to Deposit Ethereum</a>
+            <a href="/tutorial/deposit-usdt">How to Deposit USDT</a>
+          </div>
+          <div class="mega-col">
+            <h4>Resources</h4>
+            <a href="/crypto-gambling-statistics">Crypto Gambling Stats</a>
+            <a href="/payments/">Payment Methods</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-trigger" aria-expanded="false">News <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mega-dropdown">
+          <div class="mega-col">
+            <h4>Blog</h4>
+            <a href="/blog">Latest Articles</a>
+            <a href="/news">Brand News</a>
+          </div>
+          <div class="mega-col">
+            <h4>Research</h4>
+            <a href="/operators">Operator Dossiers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-actions">
+      <button data-theme-toggle aria-label="Toggle theme" class="btn-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></button>
+      <button class="btn-icon nav-hamburger" id="navToggle" aria-label="Open menu"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+    </div>
+  </nav>
+</header>
+
+<main>
+<div class="container page-content">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="bc-sep">/</span><span aria-current="page">Tools</span><span class="bc-sep">/</span><span aria-current="page">Provably Fair Checker</span></nav>
+
+  <article>
+    <h1><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Provably Fair Verification Tool</h1>
+    <p class="page-intro">Enter the seeds and nonce from any provably fair casino game to verify the hash yourself. This tool uses the Web Crypto API in your browser and sends no data to any server.</p>
+
+    <div class="tool-card" style="background:var(--color-surface-elevated);border:1px solid var(--color-border);border-radius:12px;padding:32px;margin:24px 0;">
+      <h2>SHA-256 Hash Verifier</h2>
+
+      <div class="form-group" style="margin-bottom:16px;">
+        <label for="serverSeed" style="display:block;font-weight:600;margin-bottom:6px;">Server Seed (revealed after bet)</label>
+        <input type="text" id="serverSeed" placeholder="Paste the revealed server seed here" style="width:100%;padding:10px 14px;border-radius:8px;border:1px solid var(--color-border);background:var(--color-surface);color:var(--color-text);font-family:monospace;font-size:0.95rem;box-sizing:border-box;">
+      </div>
+
+      <div class="form-group" style="margin-bottom:16px;">
+        <label for="clientSeed" style="display:block;font-weight:600;margin-bottom:6px;">Client Seed</label>
+        <input type="text" id="clientSeed" placeholder="Your client seed" style="width:100%;padding:10px 14px;border-radius:8px;border:1px solid var(--color-border);background:var(--color-surface);color:var(--color-text);font-family:monospace;font-size:0.95rem;box-sizing:border-box;">
+      </div>
+
+      <div class="form-group" style="margin-bottom:16px;">
+        <label for="serverSeedHash" style="display:block;font-weight:600;margin-bottom:6px;">Server Seed Hash (shown before bet)</label>
+        <input type="text" id="serverSeedHash" placeholder="The SHA-256 hash shown before your bet" style="width:100%;padding:10px 14px;border-radius:8px;border:1px solid var(--color-border);background:var(--color-surface);color:var(--color-text);font-family:monospace;font-size:0.95rem;box-sizing:border-box;">
+      </div>
+
+      <div class="form-group" style="margin-bottom:24px;">
+        <label for="nonce" style="display:block;font-weight:600;margin-bottom:6px;">Nonce (bet number)</label>
+        <input type="number" id="nonce" placeholder="0" min="0" style="width:100%;padding:10px 14px;border-radius:8px;border:1px solid var(--color-border);background:var(--color-surface);color:var(--color-text);font-size:0.95rem;box-sizing:border-box;">
+      </div>
+
+      <button onclick="verifyHash()" class="btn btn-primary" style="width:100%;padding:14px;font-size:1rem;font-weight:700;">Verify Hash</button>
+
+      <div id="resultBox" style="display:none;margin-top:24px;padding:20px;border-radius:8px;">
+        <h3 id="resultTitle" style="margin:0 0 12px 0;"></h3>
+        <div style="margin-bottom:12px;">
+          <strong>Calculated Server Seed Hash:</strong>
+          <div id="calculatedHash" style="font-family:monospace;word-break:break-all;margin-top:4px;padding:8px;background:var(--color-surface);border-radius:4px;font-size:0.85rem;"></div>
+        </div>
+        <div>
+          <strong>HMAC-SHA256 Result (Client Seed + Nonce):</strong>
+          <div id="hmacResult" style="font-family:monospace;word-break:break-all;margin-top:4px;padding:8px;background:var(--color-surface);border-radius:4px;font-size:0.85rem;"></div>
+        </div>
+        <p id="verificationStatus" style="font-weight:700;margin-top:16px;font-size:1.1rem;"></p>
+      </div>
+    </div>
+
+    <section>
+      <h2>How Provably Fair Verification Works</h2>
+      <p>Before you place a bet, the casino commits to a server seed by showing you a SHA-256 hash of that seed. This hash is mathematically impossible to reverse, so the casino cannot change the seed after you see the hash. Once your bet is placed using your client seed and nonce, the outcome is determined. After the round ends, the casino reveals the original server seed.</p>
+      <p>Your verification has two steps: first, hash the revealed server seed and confirm it matches the hash shown before your bet. Second, recalculate the game outcome using all three inputs (server seed, client seed, nonce) and confirm it matches what the game showed.</p>
+
+      <div class="callout callout-info">
+        <h4><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> Step-by-Step Verification Guide</h4>
+        <ol>
+          <li>Before betting: note the server seed hash shown in the game's fairness panel.</li>
+          <li>Optionally change your client seed to one you chose yourself.</li>
+          <li>Place your bet. The nonce increments with each bet.</li>
+          <li>After the round, click "Reveal" in the fairness panel to see the server seed.</li>
+          <li>Enter all values above and click Verify to confirm the hash matches.</li>
+          <li>If the hashes match, the casino could not have changed the outcome after you bet.</li>
+        </ol>
+      </div>
+
+      <h2>HMAC-SHA256 vs SHA-256</h2>
+      <p>Different platforms use slightly different implementations. Stake.com uses HMAC-SHA256 with the server seed as the key and the client seed combined with the nonce as the message. BC.Game uses a similar approach. The tool above calculates both the SHA-256 hash of the server seed (for hash verification) and the HMAC-SHA256 of the combined inputs (for outcome calculation).</p>
+      <p>For full outcome verification, you also need to know the specific game's outcome algorithm, which converts the hash result into a game outcome (e.g., a dice roll number or crash point). Each game type has its own conversion method, documented in the platform's fairness documentation.</p>
+    </section>
+
+    <section>
+      <h2>Platforms with Provably Fair Games</h2>
+      <p>These 15 platforms offer provably fair games that you can verify using this tool.</p>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Platform</th>
+              <th>Rating</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td><a href="/review-stake">Stake.com</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">9.5</span></td>
+  <td><a href="https://stake.com/?c=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-bc-game">BC.Game</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">9.1</span></td>
+  <td><a href="https://bc.game/?ref=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-cloudbet">Cloudbet</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.8</span></td>
+  <td><a href="https://cloudbet.com/?btag=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-bitstarz">BitStarz</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.7</span></td>
+  <td><a href="https://bitstarz.com/?btag=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-roobet">Roobet</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.5</span></td>
+  <td><a href="https://roobet.com/?ref=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-coinpoker">CoinPoker</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.5</span></td>
+  <td><a href="https://coinpoker.com/?ref=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-vave">Vave</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.4</span></td>
+  <td><a href="https://vave.com/?ref=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-fortunejack">FortuneJack</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.3</span></td>
+  <td><a href="https://fortunejack.com/?btag=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-thunderpick">Thunderpick</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.3</span></td>
+  <td><a href="https://thunderpick.io/?ref=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-duelbits">Duelbits</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.2</span></td>
+  <td><a href="https://duelbits.com/?ref=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-stake-lottery">Stake Lottery</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.2</span></td>
+  <td><a href="https://stake.com/?c=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-mbit">mBit Casino</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.0</span></td>
+  <td><a href="https://mbitcasino.io/?btag=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-gamdom">Gamdom</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.0</span></td>
+  <td><a href="https://gamdom.com/?ref=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-bc-game-lottery">BC.Game Lottery</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-success)">8.0</span></td>
+  <td><a href="https://bc.game/?ref=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr><tr>
+  <td><a href="/review-duel">Duel</a></td>
+  <td><span class="rating-badge" style="--badge-color:var(--color-warning)">7.6</span></td>
+  <td><a href="https://duel.win/?ref=NEWBONUS" rel="sponsored noopener noreferrer" target="_blank" class="btn btn-primary btn-xs">Visit</a></td>
+</tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-accordion"><details class="faq-item">
+  <summary>Does this tool share my seeds with anyone? <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+  <div class="faq-answer"><p>No. This tool runs entirely in your browser using the Web Crypto API. No data is sent to CryptoBets.com or any other server. You can verify this by inspecting the page source.</p></div>
+</details><details class="faq-item">
+  <summary>What is a nonce in provably fair gambling? <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+  <div class="faq-answer"><p>A nonce is a sequential counter that increments with each bet. It ensures that even with the same server and client seeds, every bet produces a different result. Starting nonce is typically 0 or 1 and increases by 1 per bet.</p></div>
+</details><details class="faq-item">
+  <summary>Can I change my client seed? <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+  <div class="faq-answer"><p>Yes. Most provably fair platforms let you change your client seed at any time before placing a bet. Using a custom seed you chose yourself means the casino had no control over that input.</p></div>
+</details><details class="faq-item">
+  <summary>What if the hashes do not match? <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+  <div class="faq-answer"><p>If the revealed server seed does not hash to what was shown before your bet, the casino changed its seed after you bet. This would be a provably fair violation. Document the mismatch and contact the platform&#x27;s support immediately.</p></div>
+</details><details class="faq-item">
+  <summary>Do slot machines use provably fair? <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+  <div class="faq-answer"><p>No. Third-party slot machines (Pragmatic Play, NetEnt, etc.) use certified RNG audited by independent labs, not provably fair algorithms. Provably fair applies only to casino-original games.</p></div>
+</details></div>
+    </section>
+  </article>
+</div>
+</main>
+
+<div class="affiliate-disclosure-bar">
+  <div class="container">
+    <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> <strong>Affiliate Disclosure:</strong> CryptoBets.com earns commissions from qualifying signups through affiliate links. This does not influence our ratings or rankings, which are based on independent testing. <a href="/about">Learn more</a>.</p>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <svg class="logo-svg logo-small" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M24 4l17.32 10v20L24 44 6.68 34V14z" fill="var(--color-surface-elevated)" stroke="var(--color-primary)" stroke-width="2"/>
+  <path d="M24 8l13.86 8v16L24 40l-13.86-8V16z" fill="var(--color-primary)" opacity="0.12"/>
+  <g transform="translate(24, 24)">
+    <text x="-10" y="6" font-family="system-ui, sans-serif" font-weight="800" font-size="18" fill="var(--color-primary)">CB</text>
+  </g>
+</svg>
+        <p>Independent crypto gambling reviews backed by real deposits, real withdrawals, and real testing. Every platform rated on a transparent 10-point scale.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="/crypto-casinos">Crypto Casinos</a></li><li><a href="/crypto-sports-betting">Crypto Sports Betting</a></li><li><a href="/crypto-poker">Crypto Poker</a></li><li><a href="/crypto-exchanges">Crypto Exchanges</a></li><li><a href="/crypto-wallets">Crypto Wallets</a></li><li><a href="/crypto-lottery">Crypto Lottery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Top Reviews</h4>
+        <ul>
+          <li><a href="/review-stake">Stake.com Review</a></li><li><a href="/review-binance">Binance Review</a></li><li><a href="/review-ledger">Ledger Review</a></li>
+          <li><a href="/crypto-casinos">All Reviews</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="/guide/provably-fair-guide">Complete Guide to Provably Fair Crypto Gambling 2026</a></li><li><a href="/guide/crypto-wallet-security-guide">Crypto Wallet Security Guide for Gamblers: Protect Your Winnings in 2026</a></li><li><a href="/guide/minimize-gas-fees-crypto-gambling">How to Minimize Gas Fees When Gambling with Crypto in 2026</a></li>
+          <li><a href="/blog">All Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/team">Team</a></li>
+          <li><a href="/how-we-rate">How We Rate</a></li>
+          <li><a href="/operators">Operator Dossiers</a></li>
+          <li><a href="/editorial-policy">Editorial Policy</a></li>
+          <li><a href="/responsible-gambling">Responsible Gambling</a></li>
+          <li><a href="mailto:help@cryptobets.com">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-responsible">
+      <div class="rg-badge">
+        <span class="age-badge">18+</span>
+        <div>
+          <strong>Gambling can be addictive. Play responsibly.</strong>
+          <p>Cryptocurrency investments and gambling involve significant risk. Never wager more than you can afford to lose.</p>
+          <p class="rg-helplines">
+            <strong>Help:</strong>
+            US: 1-800-522-4700 (NCPG) |
+            UK: 0808-8020-133 (GamCare) |
+            AU: 1800-858-858 |
+            CA: 1-866-531-2600 |
+            NZ: 0800-654-655
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-last-updated" style="font-size:0.75rem;color:var(--color-text-secondary);margin-bottom:4px;">Last updated: April 2, 2026</p>
+      <p>&copy; 2026 CryptoBets.com. All rights reserved. NWG PTY Limited, 38 Wale St, Cape Town 8000.</p>
+      <div class="footer-legal">
+        <a href="/about">About</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/responsible-gambling">Responsible Gambling</a>
+        <a href="/editorial-policy">Affiliate Disclosure</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/app.js" defer></script>
+</body>
+</html>
+
+<script>
+async function sha256(message) {
+  const msgBuffer = new TextEncoder().encode(message);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function hmacSha256(key, message) {
+  const enc = new TextEncoder();
+  const keyData = enc.encode(key);
+  const msgData = enc.encode(message);
+  const cryptoKey = await crypto.subtle.importKey(
+    'raw', keyData,
+    { name: 'HMAC', hash: 'SHA-256' },
+    false, ['sign']
+  );
+  const signature = await crypto.subtle.sign('HMAC', cryptoKey, msgData);
+  return Array.from(new Uint8Array(signature)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function verifyHash() {
+  const serverSeed = document.getElementById('serverSeed').value.trim();
+  const clientSeed = document.getElementById('clientSeed').value.trim();
+  const serverSeedHash = document.getElementById('serverSeedHash').value.trim();
+  const nonce = document.getElementById('nonce').value.trim();
+
+  if (!serverSeed) {
+    alert('Please enter the revealed server seed.');
+    return;
+  }
+
+  try {
+    const calcHash = await sha256(serverSeed);
+    const hmacInput = clientSeed + ':' + nonce;
+    const hmacRes = await hmacSha256(serverSeed, hmacInput);
+
+    const resultBox = document.getElementById('resultBox');
+    const resultTitle = document.getElementById('resultTitle');
+    const calcHashEl = document.getElementById('calculatedHash');
+    const hmacResultEl = document.getElementById('hmacResult');
+    const statusEl = document.getElementById('verificationStatus');
+
+    calcHashEl.textContent = calcHash;
+    hmacResultEl.textContent = hmacRes;
+
+    const hashMatch = serverSeedHash && calcHash === serverSeedHash.toLowerCase();
+    const noHashProvided = !serverSeedHash;
+
+    if (noHashProvided) {
+      resultBox.style.background = 'rgba(59, 130, 246, 0.1)';
+      resultBox.style.border = '1px solid rgba(59, 130, 246, 0.3)';
+      resultTitle.textContent = 'Hash Calculated';
+      statusEl.textContent = 'Server seed hashed successfully. Enter the pre-bet hash above to verify it matches.';
+      statusEl.style.color = '#3b82f6';
+    } else if (hashMatch) {
+      resultBox.style.background = 'rgba(16, 185, 129, 0.1)';
+      resultBox.style.border = '1px solid rgba(16, 185, 129, 0.3)';
+      resultTitle.textContent = 'Verification Passed';
+      statusEl.textContent = 'The server seed hash matches. The casino did not change its seed after you bet.';
+      statusEl.style.color = '#10b981';
+    } else {
+      resultBox.style.background = 'rgba(239, 68, 68, 0.1)';
+      resultBox.style.border = '1px solid rgba(239, 68, 68, 0.3)';
+      resultTitle.textContent = 'Hash Mismatch';
+      statusEl.textContent = 'The calculated hash does not match the pre-bet hash. This may indicate a fairness violation.';
+      statusEl.style.color = '#ef4444';
+    }
+
+    resultBox.style.display = 'block';
+  } catch(e) {
+    alert('Error during calculation: ' + e.message);
+  }
+}
+</script>
